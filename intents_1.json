@@ -1,0 +1,1360 @@
+{"intents": [
+  {"tag": "salut",
+    "patterns": ["Salut",
+                "Comment vas-tu",
+                "Est-ce que quelqu'un est là?",
+                "Bonjour",
+                "Bonjour", "Bonjour", "Bonjour à vous",
+                "Hola", "Hé", "Bonjour",
+                "Bonsoir", "Hé", "Comment allez-vous", "Comment allez-vous", "Bon après-midi", "Bonne journée", "Comment allez-vous",
+                "hey",
+                "quoi de neuf"],
+    "responses": ["Bienvenue sur notre chatbot","Bonjour", "merci de votre visite",
+                "C'est bon de te revoir",
+                "Bonjour, comment puis-je vous aider ?",
+                "Hé, je suis tellement content de te revoir.",
+                "Qu'est-ce que tu as fait ?"]
+    },
+    {"tag": "au revoir",
+      "patterns": ["Au revoir",
+                  "A plus tard",
+                  "Au revoir",
+                  "C'est gentil de discuter avec vous",
+                  "Jusqu'à la prochaine fois",
+                  "Au revoir bot",
+                  "Passe une bonne journée",
+                  "adieu",
+                  "Prenez soin de vous", "Au revoir bot",
+                  "Je te vois",
+                  "A bientôt", "Je vous vois au prochain trimestre",
+                  "Je vous vois le semestre prochain",
+                  "Je vous vois l'année prochaine"],
+      "responses": ["A plus tard, merci de votre visite",
+                   "Bonne journée",
+                  "Au revoir ! Revenez bientôt.",
+                    "Paix",
+                    "Paix dehors",
+                    "Je te rattrape plus tard"]
+      },
+      {"tag": "merci",
+      "patterns": ["Merci",
+                  "Merci",
+                  "C'est utile",
+                  "Merci de m'avoir aidé",
+                  "Infiniment reconnaissant",
+                  "Merci beaucoup",
+                  "Merci beaucoup",
+                  "Je veux vous remercier",
+                  "Je n'aurais pas pu le faire sans toi",
+                  "Merci d'avoir mon dos",
+                  "Je dois un merci",
+                  "Merci d'être une telle star",
+                  "Cela signifie beaucoup pour moi",
+                  "Merci de votre soutien",
+                  "votre aide m'a rendu heureux",
+                  " te suivre m'a fait plaisir ",
+                  " J'apprécie vraiment cela"
+                ],
+      "responses": ["Heureux de vous aider !",
+                  "À tout moment!",
+                  "Mon plaisir",
+                  " Heureux de vous aider",
+                  "N'en parle pas",
+                  "ce n'est pas du tout la peine",
+                  "Je suis heureux de vous aider",
+                  "C'était le moins que je pouvais faire"]
+      },
+      {"tag": "hours_bot",
+      "patterns": ["Quelles heures êtes-vous ouvert?",
+                  "Quelles sont vos heures ?",
+                  "Quand êtes-vous ouvert ?",
+                  "Existe depuis combien de temps ?",
+                  "Êtes-vous ouvert maintenant ?",
+                  "Quand serez-vous ouvert?",
+                  "Combien travaillez-vous",
+                  "Heures de travail?",
+                  "Quand votre travail commencera-t-il ?",
+                  "Vous travaillez cette semaine ?",
+                  "Par jour combien d'heures vous travaillez" ,
+                  "Est-ce que vous travaillez toute la journée ?",
+                  "Es-tu en ligne maintenant?",
+                  "Êtes-vous disponible ?",
+                  "Disponible ?",
+                  "Disponible dès maintenant?" ],
+      "responses": ["Nous sommes ouverts tous les jours 24h/24 et 7j/7",
+                  "Nous sommes toujours ouverts",
+                  "Heureux de vous aider ! D'autres problèmes ?",
+                  "Je suis ouvert tous les jours de la semaine",
+                  "existe toujours",
+                  "Toujours présente"]
+      },
+      {"tag": "ouvert aujourd'hui",
+        "patterns": ["Êtes-vous ouvert aujourd'hui ?",
+                    "Quand ouvrez-vous aujourd'hui ?",
+                    "Quelles sont vos heures aujourd'hui ?",
+                    "Est-ce qu'il existe aujourd'hui ?",
+                    "Est-il disponible aujourd'hui pour venir?",
+                    "De quand à quand l'université ouvre-t-elle ?"],
+      
+        "responses": ["Nous sommes ouverts tous les jours pendant 24 heures disponibles",
+                     " 24 heures par jour ",
+                     "Nous sommes ouverts 24h/24"]
+        },
+        {"tag": "pas de réponse",
+        "patterns": ["a","b","c","d","e","f","j","h","i","g","k"," l","m","n","o",
+                     "p","q","r","s","t","u","v","w","x","y","z", "aléatoire"],
+        "responses": ["Désolé, je ne peux pas vous comprendre",
+                    "Qu'est-ce que ça veut dire?",
+                    "expliquez s'il vous plaît!",
+                    "plus de précisions..!",
+                    "Que veux-tu dire par là?",
+                    "Je ne comprends pas ce que tu dis..!"]
+        
+        },
+        {
+          "tag":"admission",
+          "patterns":[
+            "Quand est l'admission au VIT",
+            "Date VITEE",
+            "Date de l'examen d'entrée au VIT",
+            "Date des examens d'entrée VIT",
+            "Date d'examen VITEEE",
+            "Quand commence la candidature à l'examen VITEEE",
+            "Ligne de temps pour l'examen d'entrée V.I.T",
+            "Phases du concours d'entrée au VIT",
+            "Calendrier de l'entrée VIT",
+            "Date complète et calendrier pour l'examen VITEEE",
+            "Date complète et calendrier pour l'examen d'entrée"
+          ],
+          "responses":[
+            "Le formulaire de libération des candidatures commence à partir du 30 novembre.\n La date limite de soumission du formulaire de candidature est le 21 mai.\n La réservation des créneaux commence du 14 mai au 22 mai.\n La libération de la carte d'admission commencera une fois que le des créneaux de test sont réservés.\n La phase I du test simulé est du 20 au 22 mai.\n La phase II du test simulé débutera du 24 au 26 mai.\n La date de l'examen est du 28 mai au 31 mai.\n L'annonce des résultats est le 12 juin. Le conseil VITEEE débutera le 21 juin.\n Les cours débuteront le 2 août"
+          ]
+        },
+        {
+          "tag": "admission_eligibility",
+          "patterns":[
+            "Quels sont les critères d'éligibilité",
+            "Qui peut postuler à l'université vit",
+            "Puis-je postuler à l'université vit",
+            "Notes minimales requises pour l'admission",
+            "Notes minimales requises",
+            "Restrictions d'âge à l'admission",
+            "Puis-je postuler si j'ai 25 ans.",
+            "A quel âge devez-vous postuler ?",
+            "Marques requises pour l'entrée",
+            "Quelles sont les conditions de nationalité",
+            "Un citoyen étranger peut-il postuler à l'université VIT",
+            "Exigences de nationalité",
+            "Exigences NRI",
+            "Exigences des Indiens non-résidents"
+          ],
+          "responses":[
+            "Les candidats qui souhaitent figurer dans VITEEEE 2022 doivent s'assurer qu'ils satisfont aux critères d'éligibilité VITEEEE tels qu'énoncés par le Vellore Institute of Technology.\n Nationalité : ressortissants indiens/titulaires NRI/PIO/OCI.\n Examen de qualification : 10+2.\n Notes minimales : note globale minimale de 60 % en physique, chimie, mathématiques ou biologie (PCM/PCB) en classe 12 ou à un examen équivalent.\n Âge : né le ou après le 1er juillet 1999.\n Remarque : REMARQUE : candidats appartenant au Jammu-et-Cachemire, aux États de l'Inde du Nord ou à la catégorie SC/ST devra obtenir un total de 50 % en chimie, physique et mathématiques/biologie dans la classe 12. En outre, les étudiants apparaissant en classe 12 peuvent également postuler à l'examen."
+          ]
+        },
+        {
+          "tag":"Admission_Application_Process",
+          "patterns":[
+            "Quel est le processus de candidature",
+            "Procédure de candidature VITEEE",
+            "Procédure de demande d'entrée",
+            "Modes d'entrée",
+            "Modes d'inscription à l'entrée",
+            "Inscription au concours d'entrée",
+            "Inscription VITEEE",
+            "Comment s'inscrire aux examens VITEEE",
+            "Inscrivez-vous aux exmas VITEEE"
+          ],
+          "responses":[
+            "Les candidats éligibles peuvent remplir le formulaire de candidature VITEEE en mode en ligne et hors ligne en fonction de leur convenance. Les étudiants intéressés peuvent visiter le site officiel - vit.ac.in. pour remplir les formulaires en ligne. Et ceux qui postulent hors ligne doivent récupérer la candidature formulaires des campus VIT.\n VITEEE-Mode en ligne :\n Les formulaires de candidature en ligne seront disponibles sur le site Web officiel de l'Université VIT. L'inscription en ligne comprend quelques étapes énumérées ci-dessous :\n 1. Visitez le site Web officiel du Vellore Institute of Technology – vit.ac.in.\n 2. Terminez le processus d'inscription et confirmez le numéro de demande et le mot de passe via une adresse e-mail et un mot de passe valides. \n 3. Remplissez le formulaire de demande VITEEE 2022 et effectuez le paiement via NET Banking/Carte de crédit/ Carte de débit/Paytm.\n 4. Une fois cela fait, téléchargez le formulaire de candidature pour référence future.\n\n VITEE - Mode hors ligne : \n 1.Les candidats éligibles peuvent postuler en ligne ou hors ligne (formulaire de candidature des campus VIT) Une fois que vous remplissez l'application lication, il doit parvenir à l'Université par courrier recommandé ou par courrier rapide.\n 2. Responsable des admissions, Université VIT, Vellore - 632014 Tamil Nadu, Inde.\n"
+          ]
+        },
+        {
+          "tag":"frais de dossier",
+          "patterns":[
+            "Quels sont les frais de dossier d'entrée",
+            "Coût de la demande",
+            "Frais de dossier",
+            "Frais de dossier VITEEE",
+            "Coût VITEE",
+            "Prix VITEE"
+          ],
+          "responses":[
+            "Application hors ligne : NR 1200 + 50 (DD)\n Application en ligne : INR 1150.\n Pour les NRI : 50 USD"
+          ]
+        },
+        {
+          "tag": "Réservation VITEE",
+          "patterns":[
+            "Comment réserver l'examen VITEEE",
+            "Réservation VITEE",
+            "Livre examen d'entrée",
+            "Comment réserver l'examen d'entrée",
+            "Réservation VITEE",
+            "Réservation du concours d'entrée"
+          ],
+          "responses":[
+            "L'examen VITEEE se déroule sur plusieurs jours et créneaux et le candidat peut réserver un créneau un jour particulier à sa convenance. La réservation du créneau peut se faire dans OTBS (Online Test Booking System) et VIT l'ouvrira à une date qui vous sera communiqué prochainement. Diverses options pour la sélection des Centres d'examen VITEEE 2022 y seront disponibles.\nProcédure pour réserver votre centre d'examen et votre créneau :\nEtape 1 : visitez le site officiel – vit.ac.in. Cliquez sur. Réserver un siège.\n Étape 2 : Sélectionnez l'état et la ville de votre choix pour le test.\n Étape 3 : choisissez le centre de test et le créneau horaire selon votre convenance.\n Étape 4 : Cliquez sur Réserver pour confirmer la réservation du créneau.\n\n Remarque pour les étudiants :\n La réservation des créneaux VITEEE se fait sur la base du premier arrivé, premier servi. VITEEE OTBS 2022 est une application en temps réel ; par conséquent, la fenêtre de réservation sera ouverte pendant 1 minute et les candidats doivent remplir tous les détails dans cette période de temps allouée uniquement. La réservation de créneaux ne peut être effectuée qu'une seule fois. D'autres modifications ne peuvent pas être apportées."
+          ]
+        },
+
+        {
+          "tag": "Carte d'admission VITEEE",
+          "patterns":[
+            "Carte d'admission",
+            "Informations sur la carte d'admission",
+            "Qu'est-ce que la carte d'admission d'entrée VIT"
+          ],
+          "responses":[
+            "Une fois que les candidats auront réservé leur créneau d'examen en ligne, la carte d'admission VITEEE 2022 sera immédiatement libérée.\n Pour réserver des créneaux, les candidats devront se connecter au système de réservation de test en ligne à l'aide du numéro de candidature et du mot de passe de réservation de test en ligne .\n Chaque candidat reçoit le mot de passe de réservation de test en ligne par e-mail.\n La carte d'admission contient tous les détails importants de l'examen, y compris la date, l'heure, le numéro de rôle, etc.\n Il est obligatoire pour le candidat de porter l'admission carte au moment de leur examen.\n Les candidats ne seront pas autorisés à se présenter à l'examen sans une carte d'admission valide."
+          ]
+        },
+        {
+          "tag": "Modèle général de l'examen VITEE",
+          "patterns": [
+            "Quel est le modèle de l'examen d'entrée",
+            "Motif VITEE",
+            "patterns d'entrée VITEEE",
+            "Modèle examen d'entrée",
+            "Quel est le schéma de notation dans VITEEE",
+            "Schéma de marquage dans VITEEE",
+            "Schéma de notation à l'examen d'entrée",
+            "Y a-t-il un marquage négatif",
+            "Qu'en est-il du marquage négatif",
+            "Combien de créneaux y a-t-il dans l'examen d'entrée",
+            "Places disponibles dans VITEEE",
+            "Combien de question dans VITEEE",
+            "Combien de questions au total à l'examen d'entrée",
+            "Nombre total de questions dans VITEEE",
+            "Sujets dans VITEEE",
+            "Quelles matières y a-t-il au concours d'entrée",
+            "Nombre total de matières au concours d'entrée",
+            "Sujets dans VITEEE",
+            "Y aura-t-il des Enhlish dans VITEEE",
+            "Y aura-t-il de la biologie dans VITEEE"
+          ],
+          "responses":[
+            "Le document se compose de 5 sections, y compris la section Aptitude nouvellement ajoutée comportant 3 questions. Il est très important que les candidats connaissent le modèle d'examen VITEEE 2022 car il les guidera bien pour l'examen.\n Mode d'examen : en ligne.\n Durée de l'examen : 90 minutes.\n Langue : anglais\n Type de papier : QCM \n Nombre total de questions : 80 \n Matières sectionnelles : physique, chimie, mathématiques/biologie, aptitudes et matières anglaises. \n Plages : l'examen sera être structuré en 3 sessions chaque jour. \n Schéma de notation : chaque bonne réponse vous rapportera 1 point.\n Notation négative : il n'y a pas de notation négative."
+          ]
+        },
+        {
+          "tag": "VITEEE section sage pattern",
+          "patterns":[
+            "Quels sont les patterns de section sage",
+          "patterns de section sage",
+          "combien de questions dans chaque matière",
+          "nombre total de questions dans chaque matière",
+          "nombre de questions",
+          "durée de l'examen",
+          "Combien de temps dure l'examen",
+          "Combien de temps pour chaque section",
+          "Temps pour chaque section"
+        ],
+          "responses":[
+            "Physique :\n Nombre de questions : 25\n Notes maximales : 25\n\n Chimie :\n Nombre de questions : 25\n Notes maximales : 25\n\n Mathématiques/Biologie :\n Nombre de questions : 25 \n Notes maximales : 25\n\n Aptitude :\n Nombre de questions : 3\n Notes maximales :3 \n\n Anglais :\n Nombre de questions : 2\n Notes maximales : 3\n\n Le total le temps alloué pour répondre à toutes les questions est de 90 minutes."
+          ]
+        },
+        {
+          "tag": "Syllabus VITEEE",
+          "patterns":[
+            "Quel est le syllabus pour VITEEE",
+            "Syllabus pour VITEEE",
+            "Quel est le programme de l'examen d'entrée",
+            "Syllabus examen d'entrée",
+            "Syllabus pour l'examen d'entrée"
+          ],
+          "responses":[
+            "Veuillez visiter le lien suivant pour le programme complet : https://collegedunia.com/exams/viteee/syllabus"
+          ]
+        },
+
+        {"tag": "Université",
+          "patterns": ["Où est le lien vers le site de l'université ?",
+                      "Le lien vers le site de l'université ?",
+                      "Pouvez-vous me donner le site de l'université ?",
+                      "Donnez-moi le site de l'université ?",
+                      "Le site de l'université ?","Le site de l'université c'est ?",
+                      "Le site du lien de l'université s'il vous plaît",
+                      "Quel est le site de l'université ?"],
+          "responses": ["https://vit.ac.in/",
+                      " Notre site universitaire est https://vit.ac.in/ ",
+                      " Le site universitaire est https://vit.ac.in/ ",
+                      " Le site de l'université est https://vit.ac.in/ ",
+                      " Le site de notre université est https://vit.ac.in/ ",
+                      "Vous pouvez suivre ce lien https://vit.ac.in/ pour accéder au site de l'université",
+                      "Vous pouvez suivre ce lien https://vit.ac.in/ pour accéder au site de notre université",
+                      "C'est notre site https://vit.ac.in/",
+                      "Vous pouvez suivre ce lien https://vit.ac.in/",
+                      "Le site de notre université https://vit.ac.in/",
+                      "C'est notre site https://vit.ac.in/"]
+          },
+          {"tag": "adresse",
+          "patterns": ["Où est l'adresse de l'université ?",
+                      "Donnez-moi l'adresse, s'il vous plaît ?",
+                      "Donnez-moi l'adresse de l'université, s'il vous plaît ?",
+                      "Envoyez-moi l'adresse de l'université, s'il vous plaît ?",
+                      "Envoyez-moi l'adresse de l'université, s'il vous plaît ?",
+                      "Quelle est l'adresse?",
+                      "Quelle est l'adresse de l'université ?",
+                      "L'adresse, s'il vous plaît",
+                      "L'adresse de l'université, s'il vous plaît",
+                      "L'adresse de l'université est ?",
+                      "Où est l'emplacement de l'université ?",
+                      "Où est votre position ?",
+                      "Où est l'emplacement de votre université ?",
+                      "Quelle est l'adresse de l'université ?",
+                      "où se trouve le collège",
+                      "le collège est situé à",
+                      "où est le collège",
+                      "où est situé le collège",
+                      "adresse du collège",
+                      "comment arriver au collège",
+                      "lieu du collège",
+                      "adresse du collège",
+                      "où est le collège",
+                      "comment puis-je atteindre le collège",
+                      "quelle est l'adresse du collège",
+                      "quelle est l'adresse du collège",
+                      "adresse",
+                      "emplacement"],
+          "responses": ["VIT, Vellore Campus, Tiruvalam Rd, Katpadi, Vellore, Tamil Nadu 632014, Inde",
+                      "Notre adresse est VIT, Vellore Campus, Tiruvalam Rd, Katpadi, Vellore, Tamil Nadu 632014, Inde",
+                      "Notre adresse universitaire est VIT, Vellore Campus, Tiruvalam Rd, Katpadi, Vellore, Tamil Nadu 632014, India",
+                      "C'est notre adresse VIT, Vellore Campus, Tiruvalam Rd, Katpadi, Vellore, Tamil Nadu 632014, Inde",
+                      "C'est l'adresse de notre université VIT, Vellore Campus, Tiruvalam Rd, Katpadi, Vellore, Tamil Nadu 632014, India",
+                      "Vous pouvez nous rendre visite à cette adresse VIT, Vellore Campus, Tiruvalam Rd, Katpadi, Vellore, Tamil Nadu 632014, India"]
+          },
+          {"tag": "e-mail",
+          "patterns": ["Quelle est votre adresse e-mail ?",
+                      "Donnez-moi l'adresse e-mail ?",
+                      "Il y a une adresse e-mail pour l'université ?",
+                      "L'adresse e-mail est ?",
+                      "Où est l'adresse e-mail ?"
+                      ],
+          "responses": ["ugadmission@vit.ac.in"]
+          },
+
+          {"tag": "info_acceptation",
+            "patterns": ["Quelle est la période entre la demande et l'acceptation? ",
+                        "Quelle est la durée d'admission ?",
+                        "Quelle est la durée d'acceptation ? Quelle est la période entre la demande et l'inscription à l'université ?",
+                        "Inscription un mois après le dépôt de la demande ?",
+                        "Inscription une semaine après le dépôt de la demande",
+                        "Quelle est la durée d'admission après inscription à l'université et retrait de la candidature ?",
+                        "Quelle est la durée du délai d'admission ?",
+                        "quelle est la procédure d'admission",
+                        "quelle est la procédure d'admission",
+                        "Comment être admis dans votre collège",
+                        "Quelle est la procédure d'admission",
+                        "admission",
+                        "Processus d'admission"],
+            "responses": ["Il n'y a pas de période précise, mais ce ne sera pas moins que le passage d'une année complète... Plus la candidature est complète et les conditions sont disponibles, plus grandes sont les chances d'acceptation."]
+          },
+          
+            {
+            "tag": "credit_hour",
+            "patterns": ["Qu'est-ce que l'heure de crédit ? ",
+                        "Quelle est l'heure de crédit dans votre université ?",
+                        "Qu'est-ce que le crédit-heure à l'université ?",
+                        "Y a-t-il une heure de crédit ?",
+                        "Y a-t-il une heure de crédit dans votre université ?",
+                        "Y a-t-il une heure de crédit à l'université ?",
+                        "Parlez-moi du crédit",
+                        "Parlez-moi du crédit dans votre université",
+                        "Parlez-moi du crédit à l'université",
+                        "Quelle est l'heure de crédit ?",
+                        "Quelle est l'heure de crédit dans votre université ?",
+                        "Qu'est-ce que l'heure de crédit à l'université ?",
+                        "Qu'est-ce que le système de crédit-heure ?",
+                        "Quel est le système d'heures de crédit dans votre université ?",
+                        "Qu'est-ce que le système d'heures de crédit à l'université ?",
+                        "Comment les heures de crédit sont-elles réparties ?",
+                        "Je pose des questions sur les heures de crédit à l'université ?",
+                        "Je vous pose des questions sur les heures de crédit dans votre université ?",
+                        "Je pose une question sur l'heure de crédit"],
+            "responses": [" L'heure de crédit est le poids du sujet, et si le cours est de trois heures de crédit, alors cela signifie que l'étudiant doit assister au cours magistral trois heures par semaine tout au long du semestre régulier. "]
+            },
+            {
+            "tag": "Cours_Schedule",
+            "patterns": ["Comment inscrire l'horaire des cours à l'université ? ",
+                        " Comment inscrire l'horaire des cours dans votre université ? ",
+                        "je demande d'inscrire l'horaire des cours ?",
+                        "je demande d'inscrire l'horaire des cours à l'université ?",
+                        "je demande d'inscrire l'horaire des cours dans votre université ?",
+                        "possibilité d'enregistrer l'horaire des cours ?",
+                        "possibilité d'enregistrer l'horaire des cours dans votre université",
+                        "possibilité d'enregistrer l'horaire des cours à l'université",
+                        "Erreur d'enregistrer l'horaire des cours",
+                        "Je dois m'inscrire pour l'horaire des cours s'il vous plaît?"
+                        ],
+            "responses": ["Par le biais des services d'inscription électronique disponibles sur le site Web de l'université : vtop.vit.ac.in , où l'étudiant saisit son numéro d'université, en plus de son propre mot de passe. Pour un étudiant qui ne peut pas être inscrit via le services d'inscription en raison de sa faible moyenne pondérée cumulative et d'autres raisons, il doit se référer au service des admissions et des inscriptions."]
+            },
+
+            {
+              "tag": "pré-requis",
+              "patterns": ["Qu'est-ce qu'un pré-requis ? ",
+                          "Parlez-moi du pré-requis",
+                          "donnez-moi les informations sur le pré-requis ?",
+                          "il y a un pré-requis",
+                          "je demande le pré-requis",
+                          "j'ai besoin de connaître le pré-requis"],
+              "responses": ["C'est la matière que les étudiants doivent réussir avant d'étudier la matière suivante."]
+              },
+              {
+              "tag": "info_Exams",
+              "patterns": ["Que se passe-t-il lorsque vous manquez l'examen final ? ",
+                          "Quelles sont les conséquences de ne pas passer le dernier examen ?",
+                          "Que se passe-t-il si vous ne passez pas l'examen final ?",
+                          "Que se passe-t-il si je rate le test final ?",
+                          "Que se passe-t-il si je rate l'examen final ?",
+                          "Que se passe-t-il si je rate l'examen ?",
+                          "Que se passe-t-il si je rate un examen ?",
+                          "Que se passe-t-il si je rate un test ?",
+                          "Que se passe-t-il si je rate un examen ?",
+                          "Quel est l'effet de ne pas passer l'examen ?"],
+              "responses": ["Le total de ce que vous avez obtenu des notes de l'examen pré-final est enregistré pour vous, et dans le cas où vous présentez une excuse acceptée par le doyen du Collège dans les trois jours suivant la date de l'examen, alors vous enregistrerez une note incomplète, et vous pourrez à nouveau postuler pour l'examen final, jusqu'à la fin de la troisième semaine du semestre suivant immédiatement ."]
+              },
+              {
+              "tag": "bachelor_program",
+              "patterns": ["Est-il possible d'étudier certaines matières dans une autre université? ",
+                          "et le programme de licence ?",
+                          "est-il disponible pour étudier dans une autre université ?",
+                          "Puis-je étudier certaines matières dans une autre université ?",
+                          "vous m'autorisez à étudier certaines matières dans une autre université ?",
+                          "si j'ai étudié une matière dans une autre université, tu l'acceptes",
+                          "je demande les horaires à l'université ?",
+                          "quel est le programme de l'université ?"],
+              "responses": ["Il existe différents programmes de semestre à l'étranger disponibles."]
+              },
+              {
+              "tag": "report",
+              "patterns": ["Est-il permis de reporter les études à l'université? ",
+                          "je dois reporter les études",
+                          "Est-il permis de relayer l'université ?",
+                          "Est-il permis de relayer le premier semestre à l'université ?",
+                          "Est-il permis de relayer une année à l'université ?",
+                          "reporter les études"],
+              "responses": ["(Étudiants du programme de licence) : Un étudiant peut reporter ses études à l'université pour une période n'excédant pas six semestres, qu'ils soient continus ou séparés. Un nouvel étudiant ou transféré n'est pas autorisé à reporter ses études, sauf après le fin d'un semestre d'entrée à l'université.", "(étudiants en master) : un étudiant peut reporter ses études à l'université pour une période n'excédant pas deux semestres académiques, liés ou séparés. Un nouvel étudiant ou un transfert à l'université n'est pas autorisé à reporter ses études, sauf après la fin d'un semestre complet d'entrée à l'université. "]
+              },
+              
+              {
+              "tag": "Création",
+              "patterns": ["Quand l'université a-t-elle été créée?",
+                          "Quelle est la date de fondation de l'université ?",
+                          "Quelle est la date de création de l'université ?",
+                          "Quelle est la date de création de l'université vit?",
+                          "Quand l'université vit a-t-elle été construite ?",
+                          "Quand l'université a été construite ?"],
+              "responses": ["Il a été créé en vertu de l'article 3 de la loi de 1956 sur la Commission des subventions universitaires (UGC) et a été fondé en 1984 en tant qu'institution autofinancée appelée Vellore Engineering College. Le ministère du Développement des ressources humaines de l'Union a conféré à l'université statut sur Vellore Engineering College en 2001. L'université est dirigée par son fondateur et chancelier, le Dr G. Viswanathan, ancien parlementaire et ministre du gouvernement du Tamil Nadu. En reconnaissance de son service rendu à l'Inde en offrant une éducation de classe mondiale, il a été conféré un doctorat honorifique par la West Virginia University, États-Unis. M. Sankar Viswanathan, Dr. Sekar Viswanathan et M.GV Selvam sont les vice-présidents, le Dr Rambabu Kodali est le vice-chancelier et le Dr S. Narayanan est le Pro -Vice chancelier."]
+              },
+
+              {
+                "tag": "bâtiments",
+                "patterns": ["Combien y a-t-il de bâtiments dans l'université ?",
+                            "Combien de bâtiments y a-t-il dans l'université vit?",
+                            "Combien y a-t-il de bâtiments universitaires ?",
+                            "Combien de bâtiments universitaires vit?",
+                            "Combien de bâtiments vit vit-il ?",
+                            "Combien de bâtiments y a-t-il dans l'université vit?"],
+                "responses": [" Infrastructure: le campus du VIT s'étend sur une vaste superficie de 372 acres. L'aspect remarquable du VIT est l'infrastructure de pointe fournie aux étudiants et aux professeurs. Des laboratoires entièrement meublés et bien équipés décorent chaque bâtiment de l'université. De plus, le campus est fortifié avec de nombreuses fonctionnalités qui prennent en charge divers événements - auditoriums, espaces ouverts somptueux, scènes extérieures et bien plus encore.\n Blocs académiques : une caractéristique frappante de VIT est les locaux bien planifiés et complets fourni pour les étudiants et les professeurs. Il y a sept blocs académiques dans VIT qui sont extrêmement spécialisés dans leur propre domaine particulier, à savoir- MB, GDN, CDMM, SMV, CBMR, TT, SJT et GANDHI BLOCK. La mise en page a été parfaitement planifiée pour tirer le meilleur parti du campus de 372 acres. L'idée derrière ces blocs séparés est de rendre chaque bloc équipé des commodités nécessaires tout en offrant l'atmosphère parfaite pour les études et la recherche.\n1. Dr.MGR Block\n 2. Tour du Jubilé d'Argent\n3. Tour technologique\n4. Sri.M. Bâtiment Vishweshwarariah\n5. CBMR\n6. Bloc G.D Naidu\n 7. Bâtiment CDMM\n ​​8. Bloc Mudallar A.L.\n9. Gandhi Block\n\n Auditoriams et salles de conférence : notre université croit fermement qu'il faut offrir à ses étudiants une exposition à des experts nationaux et internationaux du savoir, par le biais de conférences / colloques nationaux et internationaux réguliers et d'ateliers organisés sur le campus. C'est dans cette optique qu'un large choix d'équipements de conférence modernes a été méticuleusement planifié et intégré au campus du VIT. Anna Audi couramment utilisé par les étudiants n'est rien de moins qu'une merveille. Capable d'accueillir 1800 étudiants et réparti sur une superficie de 15436 pieds carrés, il a été construit avec des climatiseurs centralisés, un service Wi-Fi et une scène spectaculaire avec des salles vertes et un éclairage parfait. Cet auditorium est utilisé pour divers événements et conférences. Il est situé à côté des terrains de volley-ball et de basket-ball et sert de point de repère au VIT. Auditorium Anna (Capacité d'accueil – 1800). Auditorium Dr. M. Channa Reddy (Capacité de places assises – 469). Auditorium Dr. Ambedkar (Capacité d'accueil – 198). Auditorium Kamaraj (Capacité d'accueil – 128). Salle polyvalente (au bloc Gandhi) (capacité de places assises -462) \n\n Infrastructure informatique : le Centre de support technique (CTS) maintient les politiques régissant l'utilisation des ressources informatiques et de communication informatiques du VIT. La politique informatique s'applique aux ressources gérées par les services administratifs tels que la bibliothèque, les laboratoires informatiques, les bureaux de l'institution, les auberges et les maisons d'hôtes partout où l'installation du réseau a été fournie par l'institution. En outre, tous les professeurs, étudiants, membres du personnel, départements, visiteurs autorisés/professeurs invités et autres personnes pouvant être autorisées à utiliser l'infrastructure informatique et doivent se conformer aux directives. Certaines violations de la politique informatique établie par le VIT par tout membre de l'établissement peuvent même entraîner des mesures disciplinaires contre le délinquant par les autorités de l'établissement.\n\n Installations sportives : pour adopter un mode de vie plus sain tout en faisant face aux pressions des études, il faut être en bonne santé émotionnellement et physiquement. Avec cette devise, VIT met l'accent sur l'importance du sport et le considère comme une partie intégrante du programme d'études. VIT dispose d'un certain nombre de centres d'éducation physique et d'activités sportives qui aident les étudiants à rester en forme et à développer un esprit de compétition. Ses nombreux terrains de jeux extérieurs et ses courts intérieurs sont répartis sur une superficie de 20 acres.\n\n Cantine : VIT a été amplement béni avec trois cantines multi-cuisine entièrement équipées présentes à trois endroits stratégiques du collège. Deux aux extrémités du collège, un chacun dans le bloc G D Naidu et la tour Silver Jubilee et un autre au centre du collège près de la tour technologique. Les trois cantines sont sous contrat avec des traiteurs externes et proposent des plats de qualité à des prix adaptés aux étudiants. Accueillant un large éventail de cuisines et de plats, ils répondent aux besoins des étudiants de tous les coins du pays en leur fournissant une cuisine de style maison sans compromis sur la qualité.\n\n Classes intelligentes : les salles de classe intelligentes sont bien conçues pour tout intégrer nécessaire pour une atmosphère d'apprentissage agréable. Les grandes salles de classe spacieuses contiennent un tableau blanc et un projecteur qui est utilisé pour l'enseignement. En conséquence, les professeurs peuvent basculer vers différents modes d'enseignement au fur et à mesure des besoins afin que l'enseignement ne soit pas monotone et que les conférences soient transmises de la meilleure façon possible. Cet équipement de haute technologie permet à la faculté de dispenser des cours dans un manière qui permettent aux étudiants d'utiliser toutes les ressources disponibles en un clic. Ces salles de classe sont également souvent utilisées pour des séminaires et des événements de temps en temps.\n "]
+             },
+
+             {
+              "tag": "covid_19",
+              "patterns": ["quel est le système d'apprentissage à l'université pendant covid 19?"],
+              "responses": ["En ligne pendant covid 19"]
+              },
+            
+              {
+              "tag": "activités",
+              "patterns": ["Y a-t-il des activités dans l'université ?",
+                          "activités viticoles",
+                          "Y a-t-il des activités au sein de l'université ?",
+                          "Y a-t-il des activités au sein de vit université ?"],
+              "responses": ["Oui, il existe de nombreuses activités comme le sport, le théâtre et le camping. "]
+              },
+            
+              {
+              "tag": "infection_control",
+              "patterns": ["Qu'en est-il du contrôle des infections à l'université ?"],
+              "responses": ["Il existe de nombreuses portes pour le contrôle des infections. "]
+              },
+              {
+              "tag": "info_2",
+              "patterns": ["Qu'en est-il du système de sécurité à l'université ?",
+                          "Qu'en est-il du système de sécurité à l'université vit?",
+                          "Qu'en est-il du système de sécurité de l'université ?"],
+              "responses": ["Le personnel de sécurité est très qualifié."]
+              },
+              
+              {
+              "tag": "info_3",
+              "patterns": ["Combien d'élèves dans une classe ?",
+                          "Nombre d'élèves dans une classe",
+                        "Nombre total d'élèves dans une classe"],
+              "responses": ["Il y a 25-75 étudiants dans une classe en fonction du nombre d'étudiants inscrits. L'inscription des cours se fait via le processus FFCS."]
+              },
+
+              {
+                "tag": "University_College",
+                "patterns": ["quels sont les collèges disponibles au sein de l'université?",
+                            "les collèges disponibles au sein de l'université ?",
+                            "Les collèges au sein de l'université sont ?",
+                            "et les collèges vit?",
+                            "Collèges disponibles dans l'université",
+                            "Quels sont les collèges de l'université ?",
+                            "Quels sont les collèges de l'université vit?",
+                            "Les collèges à l'université sont ?",
+                            "Combien de collège au sein de l'université ?",
+                            "comment les collèges de l'université ?",
+                            "je pose des questions sur les collèges au sein de l'université vit?",
+                            "je pose des questions sur les collèges de l'université ?"],
+                "responses": ["(1)École des sciences avancées (SAS)\n(2)École des technologies de l'information et de l'ingénierie (SITE)\n(3)École de design VIT (V-SIGN)\n(4)École des sciences sociales et des langues (SSL)\n(5)École d'ingénierie électronique (SENSE)\n(6)\n(7)École d'ingénierie civile (SCE)\n(8)École des sciences et technologies biologiques\n (9) École VIT d'innovations agricoles et d'apprentissage avancé (VAIAL)\n (9) École de commerce VIT (VIT BS)\n (10) École d'informatique et d'ingénierie (SCOPE)\n (11) École d'architecture (V -SPARC)\n (12) École de génie mécanique (SMEC). \n (13) École de génie électrique (SELECT). \n (14) École de génie chimique (SCHEME)\n (15) École d'hôtellerie et Gestion du tourisme (HOT)"]
+                },
+                {
+                "tag": "Cs_coursess",
+                "patterns": ["qu'est-ce que les cours à la faculté d'informatique ?",
+                             "cours d'informatique ?",
+                             " les cours de la faculté d'informatique sont des cours ?",
+                             " Que sont les cours d'informatique ",
+                             " Que sont les cours en informatique ",
+                             "Quels sont les cours de la faculté d'informatique",
+                             "Quels sont les cours de la Faculté d'Informatique",
+                             "Quels sont les cours de la faculté de cs ?",
+                             "Qu'est-ce que les cours cs ?",
+                             " Que sont les cours en informatique ? ",
+                             "qu'est-ce que je vais étudier en cs ?",
+                             "Qu'est-ce que j'étudierai en sciences informatiques ?",
+                             "quels sont mes cours au cs college ?",
+                             "les cours d'informatique sont ?",
+                             "Tu connais quelque chose sur les cours d'informatique ?",
+                             "combien de cours en informatique ?",
+                             "quelles sont les matières au collège cs ?",
+                             "quelles sont les matières à l'université d'informatique ?",
+                             "quelles sont les matières de la faculté d'informatique ?",
+                             "la liste des cours offerts en cs college sont ?",
+                             "la liste des cours offerts à la faculté de cs sont ?",
+                             "la liste des cours offerts à la faculté d'informatique sont ?"
+                            ],
+                "responses": [" Les étudiants doivent compléter un total de 180 crédits en 4 ans. Pour plus d'informations sur la structure de divers programmes, veuillez consulter le lien suivant (https://vit.ac.in/schools/school-of- informatique-et-ingénierie-pour-cours-ug)"]
+                },
+
+                {
+                  "tag": "CS_departments",
+                  "patterns": ["que sont les départements d'informatique ?",
+                              "Quels sont les départements du Collège d'informatique ?",
+                              "que sont les départements d'informatique ?",
+                              "Quels sont les départements en informatique ?" ,
+                              " Quels sont les départements de la faculté d'informatique ? ",
+                              "Quels sont les départements de la faculté d'informatique",
+                              "les départements d'informatique sont ?",
+                              "les départements d'ingénierie informatique sont?",
+                              "services cs ?",
+                              "quels sont les départements au collège cs ?",
+                              "Quels sont les départements de l'école d'informatique et d'ingénierie ?",
+                              "Quels sont les départements de la Faculté d'informatique ?",
+                              "combien de département dans la faculté d'informatique ?",
+                              "combien de département en informatique ?",
+                              "combien de département en informatique ?",
+                              "informations départements informatique ?",
+                              "informations sur les départements d'informatique ?",
+                              "combien de département dans cs?",
+                              "combien de département en informatique ?",
+                              "je pose des questions sur les départements du collège CS ?",
+                              "combien de département en informatique et intelligence artificielle ?",
+                              "je pose des questions sur les départements d'informatique et d'intelligence artificielle ?"],
+                  "responses": ["1-Informatique et ingénierie\n2-Informatique et ingénierie avec spécialisation en bioinformatique\n3-Informatique et ingénierie avec spécialisation en sécurité de l'information\n4-Informatique et ingénierie et systèmes d'entreprise (en collaboration avec TCS )\n5.Informatique et ingénierie avec spécialisation en IOT\n6.Informatique et ingénierie avec spécialisation en science des données\n7.Informatique et ingénierie avec spécialisation en technologie Blockchain"]
+                  },
+                  {
+                  "tag": "Cs_study_policy",
+                  "patterns": ["Quelle est la politique d'étude en informatique?" ,
+                              "quelle est la politique d'études dans les écoles d'informatique et d'intelligence artificielle ?",
+                              "quelle est la politique d'étude de CS ?",
+                              "quelle est la politique d'études à la faculté d'informatique et d'intelligence artificielle ?",
+                              "politique d'études à l'école d'informatique ?",
+                              "politique d'études à la faculté d'informatique ?",
+                              "la politique d'études à la Faculté d'Informatique est ?" ,
+                              "la politique d'étude au collège cs est ?",
+                              "la politique d'études en informatique et en intelligence artificielle est-elle ?",
+                              "quelle est la politique d'études au Collège d'informatique ?",
+                              "quelle est la politique d'étude en informatique et intelligence artificielle College ?",
+                              "quelle est la politique d'études à la faculté d'informatique et d'intelligence artificielle ?",
+                              "quelle est la politique d'étude au CS College ?",
+                              "quelle est la politique d'études dans la faculté de CS ?",
+                              "la politique d'études en informatique est-elle au Collège ?",
+                              "politique de l'informatique College est?",
+                              "la politique de cs College est-elle ?",
+                              "la politique dans cs College est-elle ?",
+                              " politique de faculté de cs ",
+                              " politique en faculté de cs ",
+                              "Politique en informatique et intelligence artificielle Collège ?",
+                              "politique à la faculté d'informatique et d'intelligence artificielle du Collège ?",
+                              "collège de politique informatique et intelligence artificielle ?",
+                              "politique en faculté d'informatique ?",
+                              "quelle est la politique en informatique ?"],
+                  "responses": ["Année scolaire :\nLe vit suit le système des crédits-heures.\n\nL'année scolaire se déroule en trois semestres :\nLe premier semestre (automne) commence en septembre.\nLe deuxième semestre (printemps) commence en janvier.\nPolitique d'assiduité aux cours :\nTous les étudiants sont tenus d'assister aux cours régulièrement. L'étudiant doit assister à au moins 75 % des cours pour être autorisé à passer l'examen final. Les circonstances atténuantes qui peuvent forcer un étudiant à s'absenter devraient être signalé au bureau du département.\nL'instructeur déterminera le montant de l'aide dont un étudiant aura besoin pour compléter les exigences du cours. L'absence ne dégage pas l'étudiant de la responsabilité des devoirs couverts pendant la période d'absence.\nRemplir le formulaire d'absence, le l'étudiant est autorisé à s'absenter de l'université pour une excuse acceptée pendant deux semestres successifs, ou trois semestres consécutifs. Un étudiant est renvoyé de la Faculté s'il s'absente pour une période plus longue\nsans excuse acceptée par la Faculté Aca demic Board, et approuvé par le University Academic Board.\n\nLangue d'enseignement :\nL'anglais est la langue d'enseignement.\nLa faculté prévoit d'ajouter d'autres sections où d'autres langues étrangères sont utilisées.\n"]
+                  },
+
+                  {
+                    "tag": "Frais VIT",
+                    "patterns": ["Quels sont les frais?",
+                                "Qu'est-ce que l'argent ?",
+                                "Quels sont les frais ?",
+                                "Quels sont les frais de scolarité ?",
+                                "Qu'est-ce que les frais ?",
+                                "Combien coûte une année ?",
+                                "Quels sont les coûts totaux ?",
+                                "Frais pour différents programmes",
+                                "Frais pour",
+                                "Quel est le coût",
+                                "Des prix",
+                                "Structure des frais"
+                               ],
+                    "responses": ["Pour plus d'informations sur la structure des frais de divers programmes, veuillez visiter le lien suivant : https://vit.ac.in/admission/ug/fee-structure "]
+                    },
+                    {
+                    "tag": "the_language_that_is_taught_in_the_FACULTY_OF_COMPUTERS_SCIENCE",
+                    "patterns": ["Étudier en anglais en informatique ?",
+                                "Etudier en anglais à la fac d'informatique ?",
+                                "Etudier en anglais à la fac d'informatique ?",
+                                "Etudier en anglais au collège de cs ?",
+                                "Etudier en anglais à la faculté de cs ?",
+                                "Etudier en anglais à la faculté d'informatique ?",
+                                "Etudier en anglais à la Faculté d'informatique ?",
+                                "quelle est la langue d'étude à la Faculté d'informatique ?",
+                                "dans quelle langue puis-je étudier en informatique ?",
+                                "dans quelle langue puis-je étudier au cs college ?",
+                                "dans quelle langue puis-je étudier à l'université d'informatique ?",
+                                "dans quelle langue puis-je étudier à la faculté d'informatique ?",
+                                "il y a une autre langue que l'anglais en informatique ?",
+                                "il y a une autre langue que l'anglais au lycée informatique ?",
+                                "il y a une autre langue que l'anglais dans le collège cs?",
+                                "il y a une autre langue que l'anglais dans le collège informatique ?",
+                                "Puis-je étudier avec le langage en informatique ?",
+                                "l'étude est-elle à la Faculté d'informatique ou d'anglais ?"],
+                    "responses": ["Tous les cours sont dispensés en anglais"]
+                    },
+                    {
+                    "tag": "calculer_GPA_in_the_Faculty_of_FACULTY_OF_COMPUTERS_AND_ARTIFICIAL_INTELLIGENCE",
+                    "patterns": ["Quelles sont les méthodes d'évaluation à la faculté d'informatique ?",
+                                "Qu'est-ce que la GPA en informatique ?",
+                                "Qu'est-ce que le GPA à la faculté d'informatique ?",
+                                "Qu'est-ce que le GPA dans le collège d'informatique ?",
+                                "Qu'est-ce que le GPA à la faculté d'informatique ?",
+                                "Qu'est-ce que le GPA à la faculté d'informatique ?",
+                                "Quelles sont les méthodes d'évaluation à la faculté d'informatique ?",
+                                "comment puis-je calculer mon gpa",
+                                "comment puis-je calculer mon gpa à la faculté d'informatique",
+                                "comment puis-je calculer mon gpa au collège d'informatique",
+                                "comment puis-je calculer mon gpa au collège de cs",
+                                "Qu'est-ce que le GPA de la Faculté d'informatique ?",
+                                "Quelles sont les méthodes d'évaluation à la Faculté d'informatique ?"],
+                    "responses": ["si la présentation est supérieure à 90, la note est S\nsi la présentation est supérieure à 80 alors la note est A et le point est 3.\nsi la présentation est comprise entre 70 % et 80 % la note est B\nsi la présentation entre 60 % et 70 % la note est C\nsi la présentation entre 50 % et 60 % la note est D\nsi la présentation entre 40 % et 50 % la note est E\n Si un étudiant obtient moins de 40 % alors il /elle devra ratifier le cours"]
+                    },
+                   
+                    {
+                    "tag": "documents_are_required_to_register_in_the_FACULTY_OF_COMPUTERS_AND_ARTIFICIAL_INTELLIGENCE",
+                    "patterns": ["Quels documents sont requis pour l'examen d'entrée",
+                                "Quels documents sont requis pour VITEEE",
+                                "Documents requis pour l'inscription",
+                                "Quels sont les documents nécessaires pour le processus de candidature"
+                              ],
+                    "responses": ["1. Carte Aadhaar.\n 2. Adresse de communication\n 3. Certificat de classe 12\n 4. Copie numérisée de la photo au format passeport et de la signature\n 6. Photographie au format passeport\n 7. Signature"]
+                    },
+
+                    {
+                      "tag":"cours de la première année d'ingénieur",
+                      "patterns":["Quels sont les cours de la première année, Faculté d'Ingénierie ?",
+                                  "Qu'est-ce que les matières d'ingénierie de la première année",
+                                " Quels sont les cours de la faculté d'Ingénierie de la première année ",
+"Cours d'ingénieur de la première année ?",
+" Que sont les cours d'ingénieur de la première année ",
+"Qu'est-ce que les cours d'anglais de la première année ?",
+"qu'est-ce que je vais étudier à la première année ?",
+"qu'est-ce que je vais étudier à la faculté d'ingénierie de la première année",
+"Quels sont mes Cours en école d'ingénieurs de première année ?",
+" quels sont mes cours en école d'ingénieurs de première année ? ",
+"cours d'ingénieur de la première année ?",
+"Qu'est-ce que les cours d'ingénieur de la première année ?",
+"savez-vous quelque chose sur l'Engineerring de la première année",
+"vous connaissez quelque chose sur les cours d'ingénieur de la première année?",
+"combien de cours d'informatique de la première année ?",
+"combien de cours pour l'ingénieur de la première année",
+"combien de cours pour la faculté d'ingénierie de la première année",
+"quelles sont les matières en école d'ingénieurs de première année ?",
+"quelles sont les matières en Ingénierie de la première année ?",
+"liste des cours de l'école d'ingénieurs de la première année"],
+                      "responses":["Les cours de la première année sont \n1-STR(II)PMG Formation sur le terrain \n2-STR(IV)COT Formation sur le terrain \n3-BENG110 Dessin technique (I)\n4-ELTE314 Communications par satellite\n5- Contrôle automatique avancé \n6-CHM106 Chimie (I) \n7-PHY108 Physique (II) \n8-BENG104 Mécanique (II) \n9-LNG116 Anglais technique (I) \n10-BENG114 Ingénierie de production (II) \n11-COMP109 Introduction à la programmation informatique\n12-BENG111 Dessin technique (II) \n13-HUM115 Histoire de l'ingénierie\n14-BENG103 Mécanique (I) \n15- Principes fondamentaux de la conception d'architecture \n16- Conception de matrice \n17-PHY107 Physique (I) \n18- Génie géotechnique (I) \n19-Circuits numériques et électroniques (I) \n20- Conception technique (I) \n21- Théorie de la structure (I) \n22- Systèmes numériques (I) \n23- Microélectronique (I) \n24- Mécatronique (JE) "]
+                      },
+
+                      {
+                        "tag":"cours de la deuxième année d'ingénieur",
+                        "patterns":["Quels sont les cours de la deuxième année, Faculté d'Ingénierie?",
+  "Quels sont les cours de la deuxième année, Faculté d'Ingénierie?",
+  "Qu'est-ce que les matières d'ingénierie de la deuxième année",
+  " Quels sont les cours de la faculté d'Ingénierie de la deuxième année ",
+  "Cours d'ingénieur de la deuxième année ?",
+  " Que sont les cours d'Ingénieur de la deuxième année ",
+  "Qu'est-ce que les cours d'anglais de la deuxième année ?",
+  "qu'est-ce que je vais étudier à la fin de la deuxième année?",
+  "qu'est-ce que je vais étudier à la faculté d'ingénierie de la deuxième année",
+  "quels sont mes Cours en école d'ingénieurs de deuxième année ?",
+  " quels sont mes cours en école d'ingénieurs de deuxième année ? ",
+  "cours d'ingénieur de deuxième année ?",
+  "Qu'est-ce que les cours d'ingénieur de la deuxième année ?",
+  "savez-vous quelque chose à propos de l'Engineerring de la deuxième année",
+  "vous connaissez quelque chose sur les cours d'ingénieur de la deuxième année?",
+  "combien de cours d'informatique en deuxième année ?",
+  "combien de cours pour l'ingénieur de la deuxième année",
+  "combien de cours pour la faculté d'ingénierie de la deuxième année",
+  "quelles sont les matières en école d'ingénieurs de deuxième année ?",
+  "quelles sont les matières en Génie de la deuxième année ?",
+  "liste des cours de l'école d'ingénieurs de la deuxième année"],
+                        "responses":["Les cours de la deuxième année sont \n1-STR(II)PMG Formation sur le terrain \n2-BIO207 Résistance des matériaux \n3- Electronique de puissance (II)\n4-MENG206 Résistance des matériaux \n5-MENG224 Propriétés et Essais de matériaux \n6-CENG227 Rédaction de rapports techniques \n7-ELTE216 Principes électromagnétiques \n8-ELTE219 Organisation informatique \n9-CENG230 Économie de l'ingénierie \n10-BIO222 Génie civil \n11-CENG201 Graphiques d'ingénierie\n12-COME204 Mécanique d'ingénierie \n13-CENG229 Géologie de l'ingénierie\n14-ELTE204 Mécanique de l'ingénierie \n15-MENG227 Économie de l'ingénierie \n16-CENG225 Équipement du bâtiment \n17-ARCH201 Principes fondamentaux de la conception architecturale \n18-CONT227 Rédaction de rapports techniques \n19-CONT220 Génie civil \n20-ELTE228 Psychologie industrielle \n21- MENG217 Métrologie et mesures \n22-CONT228 Psychologie industrielle \n23-CENG212 Hydraulique \n24-MENG218 Génie civil \n25-MENG222 Transfert de chaleur et fours industriels \n26-BENG214 Génie de la production (II)\n27-CENG220 Technologie du bâtiment \n 28-CONT203 Microélectronique (II) \n29-CONT202 Ingénierie de contrôle (II) \n30-CONT215 Ingénierie micro-informatique \n31-CONT206 Conception technique (II) \n32-MENG219 Thermodynamique et systèmes énergétiques \n33-MENG212 Conception d'éléments mécaniques \n34 -MENG204 Mécanique d'ingénierie et théorie des machines \n35-MENG207 Métallurgie \n36-MENG216 Dispositifs et circuits électroniques \n37-MENG211 Mécanique des fluides \n38-MENG210 Analyse des contraintes \n39-BENG204 Mécanique (II) \n40-CONT212 Application informatique "]
+                        },
+                    
+                        {
+                          "tag":"cours de la troisième année d'ingénieur",
+                          "patterns":["Quels sont les cours de la troisième année, Faculté de génie?",
+    "Quels sont les cours de la troisième année, Faculté d'Ingénierie ?",
+    "Qu'est-ce que les matières d'ingénierie de la troisième année",
+    " Quels sont les cours de la faculté d'Ingénierie de la troisième année ",
+    "Cours d'ingénieur de troisième année ?",
+    " Que sont les cours d'ingénieur de la troisième année ",
+    "Qu'est-ce que les cours d'anglais de la troisième année ?",
+    "qu'est-ce que je vais étudier à la fin de la troisième année?",
+    "qu'est-ce que je vais étudier à la faculté d'ingénierie de la troisième année",
+    "quels sont mes Cours en école d'ingénieurs de troisième année ?",
+    " quels sont mes cours en école d'ingénieurs de troisième année ? ",
+    "cours d'ingénieur de troisième année ?",
+    "Qu'est-ce que les cours d'ingénieur de la troisième année ?",
+    "savez-vous quelque chose sur l'Engineerring de la troisième année",
+    "vous connaissez quelque chose sur les cours d'ingénieur de la troisième année?",
+    "combien de cours d'informatique de troisième année ?",
+    "combien de cours pour l'ingénieur de la troisième année",
+    "combien de cours pour la faculté d'ingénieurs de troisième année",
+    "quelles sont les matières en école d'ingénieurs de troisième année ?",
+    "quelles sont les matières en Génie de la troisième année ?",
+    "liste des cours de l'école d'ingénieurs de la troisième année"],
+                         "responses":["Les cours de la troisième année sont \n1-ELTE312 Communications numériques \n2-CEM322 Gestion de la construction d'hôpitaux \n3-ELTE301 Gestion de la base de données \n4-BIO306 Modélisation des machines électriques \n5-CONT317 Electronique de puissance (II)\n6-ARCH311 Construction en acier \n7-ARCH311 Construction en acier \n8-PENG316 Simulation de systèmes industriels \n9-CONT301 Utilisation de micro-ordinateurs \n10-COME316 Systèmes et technologie de robot \n11-MENG301 Dynamique et vibration du système\n12-MENG322 Études de faisabilité \n13 -CONT325 Études de faisabilité\n14-CEM303 Ingénierie municipale \n15-CONT319 Principes des micro-ondes \n16-CONT308 Ingénierie de contrôle avancée \n17-ELTE307 Électronique optique \n18-ELTE314 Communications par satellite \n19- \n20-ELTE317 Contrôle automatique avancé \n21-ELTE312 Numérique Communications \n22-MENG319 Réfrigération et climatisation \n23-MENG305 Mécatronique (I) \n24-MENG305 Mécatronique (I) \n25- \n26-PENG325 Psychologie industrielle\n27- \n28-PENG319 Métallurgie des poudres \n29-PENG313 Digital Signal Pr ocessing \n30-PENG311 Contrôle automatique \n31-PENG308 Gestion industrielle \n32-MENG302 Conception de systèmes mécaniques \n33-MENG304 Fabrication assistée par ordinateur \n34-MENG312 Contrôle et automatisation des processus \n35-MENG318 Moteurs à combustion interne \n36-MENG303 Conception assistée par ordinateur \n37-PENG321 B.Sc. Projet Premium \n38-PENG305 Conception de matrices \n39-PENG307 Traitement thermique et de surface \n40-CENG314 Quantités et spécifications \n41-COME324 Intelligence artificielle \n42-COME313 Traitement d'images \n43-COME326 B.Sc. Projet Premium \n44-COME308 Réseaux de communication \n45-COME306 Systèmes à base de microprocesseurs \n46-MENG321 B.Sc. Projet \n47-BIO305 CAD de Signaux Et Systèmes \n48-COME323 Systèmes Experts \n49-COME327 B.Sc. Projet \n50-COME315 Systèmes d'information \n51-COME314 Sécurité informatique \n52-ELTE310 Antennes et propagation des ondes \n53-ELTE316 Systèmes d'ingénierie radar \n55-CENG315 Tunnels et structures souterraines \n56-CEM306 Quantités et spécifications \n57-CEM317 Analyse numérique \n58-BIO304 Électronique de puissance \n59-CONT311 Commande numérique \n60-CENG312 Conception en acier de structure (III) \n61-CENG303 Conception en acier de structure (I) - CENG 303 \n62-ARCH302 Dessins d'exécution (I)\n63-ARCH313 Construction de bâtiments Équipement \n64-CONT309 Instruments Et Capteurs Électroniques \n65-CEM316 Travaux Publics (II) \n66-CENG322 Contrôle Qualité \n67-CONT305 Electronique de Puissance (I) \n68-CEM315 Gestion de la construction \n69-ARCH316 Coordination Modulaire Urbanisme \n70 -ARCH320 Conception de bâtiments intelligents \n71-ELTE328 Impact environnemental des systèmes de communication \n72-MENG308 Technologie des robots \n73-CENG310 Conception de routes et de pistes \n74-MENG317 Planification de la maintenance \n75-MENG306 Simulation de systèmes industriels\n76-MENG30 9 Traitement du signal numérique \n77-CONT323 B.Sc. Projet Premium \n78-CONT303 Microélectronique (II) \n79-CONT302 Ingénierie de contrôle (II) \n80-CONT310 Traitement du signal numérique \n81-CEM308 Conception avancée du béton armé \n82-CEM311 Contrôle qualité \n83-CEM302 Ingénierie géotechnique (II)\n 84-CENG327 Législations en génie civil \n85-CEM309 Prise de décision et planification de projet \n86-MENG324 Psychologie industrielle \n87-ELTE315 Systèmes de téléphonie mobile \n88-BIO334 Étude de faisabilité \n89-MENG314 Fabrication intégrée par ordinateur \n90-ARCH304 Installation technologique Pour les bâtiments \n91-CONT315 Systèmes de contrôle de puissance hydraulique \n92-CONT327 Économie d'ingénierie \n93-CONT314 Contrôleur logique programmable \n94-BIO330 B.Sc. Project Premium \n95-BIO318 TQM dans les soins de santé \n96-BIO310 Conception de systèmes de gaz médicaux \n97-BIO309 Systèmes biomécaniques \n98-BIO308 Génie clinique \n99-BIO302 Circuits et équipements à micro-ondes \n100-CENG301 Génie géotechnique (II) \n101-BIO331 B.Sc. Projet \n102-BIO313 Vision électronique \n103-BIO312 Contrôle automatique \n104-BIO301 Bio-informatique \n105-CEM327 Planification et contrôle des installations \n106-CENG317 Génie de l'environnement \n107-ELTE324 B.Sc. Projet Premium "]
+                        }, 
+
+                        {
+                          "tag":"courses_of_the_fourth_year_of_engineering",
+                          "patterns":["Quels sont les cours de la quatrième année, Faculté de génie?",
+    "Quels sont les cours de la quatrième année, Faculté d'Ingénierie ?",
+    "Qu'est-ce que les matières d'ingénierie de la quatrième année",
+    " Quels sont les cours de la faculté d'Ingénierie de la quatrième année ",
+    "Cours d'ingénieur de quatrième année ?",
+    " Que sont les cours d'ingénieur de la quatrième année ",
+    "Qu'est-ce que les cours d'anglais de la quatrième année ?",
+    "qu'est-ce que je vais étudier à la fin de la quatrième année ?",
+    "qu'est-ce que je vais étudier à la faculté d'ingénierie de la quatrième année",
+    "quels sont mes Cours en école d'ingénieurs de quatrième année ?",
+    " quels sont mes cours en école d'ingénieurs de quatrième année ? ",
+    "cours d'ingénieur de quatrième année ?",
+    "Qu'est-ce que les cours d'ingénieur de la quatrième année ?",
+    "savez-vous quelque chose à propos de l'Engineerring de la quatrième année",
+    "vous connaissez quelque chose sur les cours d'ingénieur de la quatrième année?",
+    "combien de cours d'informatique de la quatrième année ?",
+    "combien de cours pour l'ingénieur de la quatrième année",
+    "combien de cours pour la faculté d'ingénierie de la quatrième année",
+    "quelles sont les matières en école d'ingénieurs de quatrième année ?",
+    "quelles sont les matières en Génie de la quatrième année ?",
+    "liste des cours de l'école d'ingénieurs de la quatrième année"],
+                          "responses":["Les cours de la quatrième année sont \n1 Contrôleur Logique Programmable \n2 Systèmes de Contrôle \n3- Systèmes de Microprocesseur\n4- Législations \n5-B.Sc. Projet Premium \n6- Quantités et spécifications \n7- Renforcé Conception concrète \n8- Théorie de la structure \n9- Gestion des coûts et comptabilité \n10- Histoire de l'environnement de construction \n11- Projet B.Sc.\n12- Électronique industrielle \n13- Circuits intégrés\n14- Systèmes basés sur des microprocesseurs \n15- Projet B.Sc. \n16- Modélisation de Systèmes Industriels \n17- Conception de Structures en Acier \n18- Législations en Génie Civil \n19- Planification Et Analyse de Projets \n20- Etudes de Faisabilité \n21-Installations Sanitaires Techniques \n22-B.Sc. Projet \n23-Systèmes de communication optique \n24- Réseaux de communication \n25-Génie électronique des micro-ondes \n26- Construction de travaux publics \n27- Exploitation de l'unité de construction \n28-Génie routier \n29- Projet B.Sc. Premium \n30- Conception de l'acier de construction - \n31- Systèmes d'assainissement des eaux usées \n32- Renfort avancé béton forcé \n33- Conception des fondations \n34-Ingénierie des transports \n35-B.Sc. Projet \n36- Histoire de l'environnement de construction \n37-Conception de la structure en acier \n38-Gestion de la construction \n39- B.Sc. Project Premium \n40-Conception de l'acier de construction \n41-Conception des fondations"]
+                          },
+                      
+                
+
+                          {"tag": "lot jour et soir",
+                            "patterns": ["est-ce qu'il y a des lots de jour et de soir",
+                            "A quelle heure sont les cours",
+                            "Horaires des cours",
+                            " A quand les cours "
+                          ],
+                            "responses": ["Les étudiants auront la possibilité de suivre les cours soit le matin, soit le soir. L'entière responsabilité de l'inscription au cours est confiée à l'étudiant"]
+                            },
+                            {
+                            "tag": "durée des vacances",
+                            "patterns": ["combien de temps la durée des vacances",
+       "durée",
+       "vacances",
+       "vacance"],
+                            "responses": ["Pendant le semestre, il y a 5 jours ouvrables. Il y a aussi divers jours fériés pendant le semestre. Après chaque année, il y a une pause d'environ 2 mois."]
+                            },
+                            {
+                            "tag": "activités périscolaires",
+                            "patterns": ["avez-vous des activités périscolaires",
+       " périscolaire ",
+       "périscolaire"],
+                            "responses": ["oui, nous avons des activités parascolaires comme une journée sportive, une journée culturelle, des débats et un concours de musique et de danse"]
+                            },
+                            {
+                            "tag": "assiduité minimale requise pour passer les examens",
+                            "patterns": ["quelle est la présence minimale requise pour passer les examens",
+       "le minimum"],
+                            "responses": ["vous êtes tenu d'assister à 75 % des conférences et devez informer les membres du personnel si vous ne pouvez assister à aucune conférence"]
+                            },
+                          
+                            {
+                            "tag": "Livres",
+                            "patterns": ["Y a-t-il des livres disponibles",
+     "Les ressources sont-elles disponibles dans la bibliothèque",
+     "Où puis-je trouver des livres",
+     "Réserver pour les cours"
+                            ],
+                            "responses": ["Oui, vous le trouverez dans la bibliothèque"]
+                            },
+                            {
+                            "tag": "bibliothèque",
+                            "patterns": ["Y a-t-il une bibliothèque ?"],
+                            "responses": ["Oui, nous avons une bibliothèque sophistiquée sur notre campus qui contient tout ce qui développe et améliore le niveau académique de l'étudiant"]
+                            },
+                            
+                            {
+                            "tag": "conditions d'obtention du diplôme",
+                            "patterns": ["quelles sont les conditions d'obtention du diplôme",
+       "graduation"],
+                            "responses": [" vous êtes censé réussir tous vos examens avec un minimum de 2.0 GPA et effacer tous vos frais et n'avoir plus de papiers et de projets restants "]
+                            },
+                            {
+                            "tag": "placement de stage",
+                            "patterns": ["avez-vous des stages en entreprises et industries",
+       "placement"],
+                            "responses": ["oui, nous vous aidons à envoyer des recommandations et aussi si possible à vous envoyer dans une entreprise pour un stage."]
+                            },
+                            {
+                            "tag": "e-learning",
+                            "patterns": ["avez-vous un e-learning",
+       "bibliothèque",
+       "une bibliothèque" ,
+       "bibliothèque électronique"],
+                            "responses": ["e-Library est une ressource en ligne pratique et abordable qui vous permet d'accéder facilement à un large éventail de livres de qualité."]
+                            },
+                            {
+                            "tag": "plateforme d'apprentissage mixte",
+                            "patterns": ["ce qu'on entend par plate-forme d'apprentissage mixte",
+       "mélangé"],
+                            "responses": ["vit a récemment lancé une plate-forme d'apprentissage mixte et elle combine l'apprentissage en classe avec l'apprentissage en ligne, dans lequel les étudiants peuvent, en partie, contrôler le temps, le rythme et le lieu de leur apprentissage. La plate-forme d'apprentissage mixte et les sports électroniques sont lancées par honorable récemment le ministre ougandais des technologies de l'information."]
+                            },
+
+                        
+                            {
+                              "tag": "sport",
+                              "patterns": ["parle-moi du sport",
+         "parle-moi du sport",
+         "sport",
+         "des sports"],
+                              "responses": [" Vous apprendrez dans un environnement technique pratique tout ce qui est nécessaire pour organiser des événements à petite et à grande échelle. En développant vos compétences pour les événements d'équipe à un ou plusieurs joueurs, vous créerez des plans d'affaires pour constituer des équipes, créer des communautés en ligne et promouvoir vos événements grâce au marketing numérique. Vous aurez également l'opportunité d'explorer la culture de l'esport, son public et sa base de fans ainsi qu'une variété des genres de jeux actuels les plus populaires."]
+                              },
+                              
+                              {
+                              "tag": "merci",
+                              "patterns": ["merci pour cette information",
+         "remercier",
+         "au revoir"],
+                              "responses": ["vous êtes les bienvenus à bientôt à vit université"]
+                              },
+                              
+                              {
+                              "tag": "suspendre ou arrêter l'apprentissage temporairement",
+                              "patterns": ["Est-il possible de suspendre ou d'arrêter temporairement l'apprentissage",
+         "apprentissage interrompu"],
+                              "responses": ["Vous pouvez retirer et arrêter l'apprentissage temporairement À condition que la moitié du montant soit payé", "Les étudiants ont le droit de demander une pause et une attente"]
+                              },
+                              {
+                              "tag": "les cas où les étudiants peuvent soumettre une suspension",
+                              "patterns": ["Dans quels cas les étudiants peuvent-ils soumettre une demande de suspension ?"],
+                              "responses": ["Dans tous les cas de maladie, de voyage et d'autres circonstances, l'étudiant peut soumettre une demande de suspension temporaire de l'éducation"]
+                              },
+                              {
+                              "tag": "Après avoir décidé de faire une pause",
+                              "patterns": ["Après avoir décidé de faire une pause, que fait le collège au nom de l'étudiant sur la liste"],
+                              "responses": ["Le collège doit retirer temporairement le nom de l'élève de la classe jusqu'à ce qu'il reprenne ses études"]
+                              },
+                             
+                              {
+                              "tag": "examen final ",
+                              "patterns": ["À quoi ressemblera l'examen final ?",
+ "Comment se déroule l'examen final",
+ "Critères de réussite aux examens finaux",
+ "Quand sont les examens pour les cours",
+ "Nombre total d'examens dans chaque semestre",
+ "Combien d'examens en vit",
+ "Nombre total d'examens dans chaque cours",
+ "Combien d'examens dans chaque cours"
+                              ],
+                              "responses": ["Les étudiants doivent donner 3 examens au cours d'un semestre pour chaque cours inscrit. Les étudiants doivent également obtenir un minimum de 40 points sur 100 à l'examen final pour réussir le cours"]
+                              },
+                              
+                              {
+                              "tag": "courrier étudiant",
+                              "patterns": ["Quelle est l'importance du courrier des étudiants ?"],
+                              "responses": ["Il est important dans tous les cas d'entrer à l'université, de passer les examens, aux plateformes éducatives, et de suivre les résultats"]
+                              },
+                              {
+                              "tag": "mot de passe e-mail",
+                              "patterns": ["Quel est le mot de passe de l'e-mail ?"],
+                              "responses": ["il apparaît sur le site E-Learning"]
+                              },
+                              {
+                              "tag": "oubli de l'email ",
+                              "patterns": ["Si j'ai oublié le mot de passe de l'e-mail ?"],
+                              "responses": ["Vous pouvez renvoyer le mot de passe via le site Web, et un SMS vous sera envoyé par téléphone ou par e-mail"]
+                              },
+                              {
+                              "tag": "perdre le compte",
+                              "patterns": ["Et si je perds mon compte d'authentification ?"],
+                              "responses": ["vous pouvez aller au personnel et le retourner"]
+                              },
+                             
+                              {
+                              "tag": " conditions pour les bourses ",
+                              "patterns": ["Quelles sont les conditions pour les bourses?"],
+                              "responses": ["Que le total de vos notes soit égal au total interne des bourses "]
+                              },
+                              {"tag": "si trop d'étudiants reçoivent des bourses",
+                              "patterns": ["Et si trop d'étudiants reçoivent des bourses?"],
+                              "responses": ["Bourses attribuées aux notes les plus élevées dans l'ordre"]
+                              },
+                              {
+                              "tag": "infrastructure de l'université",
+                              "patterns": ["Je voudrais connaître l'infrastructure /de l'université ?"],
+                              "responses": ["La présence d'une infrastructure solide et d'un personnel enseignant qualifié."]
+                              },
+                              
+                              {
+                                "tag": "Auditorium universitaire",
+                                "patterns": ["y a-t-il un auditorium universitaire"],
+                                "responses": ["Oui, il y a des salles de conférence pour des événements importants pour les étudiants, les médecins et la recherche scientifique et discuter de projets"]
+                                },
+                                {
+                                "tag": "Hôpitaux universitaires",
+                                "patterns": ["existe-t-il des hôpitaux universitaires",
+"Je voudrais connaître les hôpitaux universitaires ?"],
+                                "responses": ["L'université fournit des hôpitaux et des examens gratuits et payants"]
+                                },
+                                {
+                                "tag": "centre étudiant",
+                                "patterns": ["Je voudrais en savoir plus sur le centre étudiant ?"],
+                                "responses": ["L'administration universitaire est le centre des étudiants"]
+                                },
+                                {
+                                "tag": "théorie et laboratoire",
+                                "patterns": ["Y a-t-il uniquement des sujets de laboratoire ou à la fois de la théorie et du laboratoire",
+"Théorie et sujets de laboratoire"],
+                                "responses": ["Il y a des sujets avec à la fois la théorie et le laboratoire et certains qui ne sont que du laboratoire"]
+                                },
+                            
+                                {
+                                "tag": "bus à l'université ",
+                                "patterns": ["Y a-t-il des bus à l'université?"],
+                                "responses": ["Oui, il y a des bus pour l'université organisés par l'université ou certains bureaux externes"]
+                                },
+                                {
+                                "tag": "Horaires de bus",
+                                "patterns": ["Quels sont les horaires de bus"],
+                                "responses": ["Les heures de départ des bus sont de 7h à 16h tous les jours de la semaine, sauf le vendredi"]
+                                },
+                                {
+                                "tag": "caractéristique des bus",
+                                "patterns": ["Les bus sont-ils climatisés?"],
+                                "responses": ["Oui, tous les bus sont climatisés et ont leurs propres fonctionnalités"]
+                                },
+                              
+                                {
+                                "tag": "caractéristiques du voyage universitaire",
+                                "patterns": ["Quelles sont les caractéristiques du voyage universitaire"],
+                                "responses": ["Transferts en bus modernes et climatisés, un quart de poulet repas, riz, salade et farine pour tout le monde, photographe pour la journée"],
+                                "le contexte_": ""
+                                },
+                                {
+                                "tag": "maîtrise",
+                                "patterns": ["L'université propose-t-elle une maîtrise ?"],
+                                "responses": ["Oui, l'université propose une maîtrise"]
+                                },
+                                {
+                                "tag": "exigences pour le diplôme de Master",
+                                "patterns": ["Quelles sont les exigences pour commencer le Master ?"],
+                                "responses": ["Tout d'abord, l'étudiant doit obtenir un baccalauréat dans la majeure dans laquelle il souhaite étudier la maîtrise, et que ses études ont été terminées à l'université et qu'il / elle a au moins une bonne note générale." ]
+                                },
+                                {
+                                "tag": "raisons pour lesquelles les étudiants veulent obtenir une maîtrise",
+                                "patterns": ["Les raisons pour lesquelles les étudiants veulent obtenir une maîtrise"],
+                                "responses": ["Afin d'obtenir un meilleur rendement financier de l'emploi qu'il obtient et de faciliter la promotion et la réussite professionnelle dans les entreprises"]
+                                },
+                          
+                                {
+ "tag": "misses_the_final_exam",
+ "patterns": ["Que se passe-t-il si un étudiant rate l'examen final ?",
+  "si un étudiant rate l'examen final, que se passe-t-il ?"],
+ "responses": ["L'étudiant échoue le cours et obtient la note (F). Cette note est calculée dans la moyenne semestrielle et la moyenne cumulative, et l'étudiant doit présenter une excuse - le cas échéant - selon les instructions de l'université, jusqu'à une semaine maximum après que l'excuse cesse de lui donner la possibilité de passer un examen incomplet. "]
+ },
+ {
+ "tag": "excuse_if_a_student_misses",
+ "patterns": ["Quelle est l'excuse acceptable si un étudiant rate l'examen final ?",
+  "Quelle est l'excuse acceptable au cas où l'étudiant ne se présente pas à l'examen final ?",
+  "Quelle est l'excuse acceptable si un élève ne se présente pas à l'examen final ?"],
+ "responses": ["L'étudiant a la possibilité de se présenter à un examen incomplet s'il a raté l'examen final et l'excuse comprenait ce qui suit : le décès d'un parent au premier degré (père, mère, frère, sœur, mari, (épouse, grand-père, grand-mère) Arrestation avec justificatif au Décanat des affaires étudiantes. Pour les étudiants résidant à l'étranger, admission à l'hôpital pour maladie, accompagnée d'un rapport médical de l'hôpital, qui est approuvé par la clinique universitaire. "]
+ },
+                              
+ {
+ "tag": "study_some_subjects_at_another_university",
+ "patterns": ["Est-il possible d'étudier certaines matières dans une autre université?"],
+ "responses": ["Un étudiant régulier à l'université peut suivre des cours dans une autre université."]
+ },
+                              
+ {
+ "tag": "transfer_from_on_ major_to_another",
+ "patterns": ["Comment passer d'une majeure à une autre?"],
+ "responses": ["Un étudiant peut passer d'une majeure à une autre en remplissant le formulaire de demande de transfert d'une majeure à une autre et en le soumettant au Décanat des admissions et des inscriptions au début du premier ou du deuxième semestre, jusqu'à la fin de la période d'ajout et de suppression, et ces demandes sont décidées par le Décanat des admissions et des inscriptions conformément à la politique d'admission et d'inscription."]
+ },
+                                
+ {
+ "tag": "heures_université",
+ "patterns": ["calendrier de l'université",
+  "quel est le calendrier de l'université",
+  "quelle est la synchronisation de l'université",
+  "jours de travail à l'université",
+  "jours ouvrés votre université",
+  "quand êtes-vous ouvert les gars",
+  "Quels sont les horaires de travail dans votre université",
+  "heures d'ouverture de votre université",
+  "quand votre université est-elle ouverte",
+  "Qu'en est-il du calendrier universitaire",
+  "le collège est-il ouvert le samedi",
+  "Dis-moi quelque chose sur le calendrier universitaire",
+  "quelles sont les heures universitaires",
+  "quand dois-je venir à l'université",
+  "quand dois-je fréquenter l'université",
+  "quelle est votre heure d'université"],
+ "responses": ["Le collège est ouvert de 9h à 17h du samedi au vendredi !"]
+ },
+ {
+ "tag": "fees_university",
+ "patterns": ["informations sur les frais",
+  "informations sur les frais",
+  "dis-moi les frais",
+  "frais de scolarité",
+  "tarif par semestre",
+  "quel est le tarif de chaque semestre",
+  "quels sont les frais de chaque année",
+  "qu'est-ce que les frais",
+  "quels sont les frais",
+  "à combien s'élèvent les frais",
+  "frais de première année",
+  "frais",
+  "à propos des frais",
+  "Dis-moi quelque chose au sujet des frais",
+  "frais être",
+  "me fait payer",
+  "commissions de frais",
+  "le frais",
+  "frais auto",
+  "frais extc",
+  "frais d'électricité",
+  "Ordinateur de frais",
+  "honoraires mécaniques",
+  "honoraires automobiles",
+  "honoraires ouverts fe",
+  "honoraires ouverts à vous",
+  "tarifs ouverts te",
+  "frais ouverts être"],
+ "responses": ["Pour les détails des frais, visitez https://vit.ac.in/"]
+ },
+
+ {
+   "tag": "auberge",
+   "patterns": ["établissement d'accueil",
+    "service d'auberge",
+    "combien d'auberges en vit",
+    "Différentes auberges en vit",
+    "emplacement de l'auberge",
+    "adresse de l'auberge",
+    "facilités d'accueil",
+    "frais d'auberge",
+    "Est-ce que le collège fournit une auberge",
+    "Y a-t-il une auberge ?",
+    "Où est l'auberge",
+    "avez-vous une auberge",
+    "vous avez une auberge ?",
+    "hôtel",
+    "capacité de l'auberge",
+    "quels sont les frais d'auberge",
+    "comment entrer dans l'auberge",
+    "quelle est l'adresse de l'auberge",
+    "à quelle distance est l'auberge du collège",
+    "distance collège auberge",
+    "où est l'auberge",
+    "quelle est la taille de l'auberge",
+    "distance entre le collège et l'auberge",
+    "distance entre l'auberge et le collège"],
+   "responses": ["Un chez-soi loin de chez soi, les auberges de jeunesse de VIT sont plus que quatre murs et un toit. Elles ont été conçues pour offrir une vie confortable, sûre, inclusive et sécurisée tout en offrant des opportunités de nouer des amitiés durables et faciliter la transition de la maison à l'université. Le personnel de l'établissement est toujours disponible pour soutenir les étudiants de différents horizons afin de promouvoir la communauté. Vivre sur le campus offre aux étudiants la possibilité de :\n 1. Se connecter avec une population diversifiée.\n 2. Développer de meilleures compétences interpersonnelles et de communication\n 3. S'impliquer dans la direction, les organisations et les activités du campus\n 4. Établir des relations avec les professeurs et les membres du personnel.\n Les réunions du comité d'examen de l'auberge sont organisées une fois tous les 15 jours par les administrateurs de l'auberge pour répondre aux questions des étudiants et les exigences, et de les tenir au courant de l'amélioration des services et des événements. Les étudiants ont également le privilège de faire des suggestions pour améliorer les installations de l'auberge.\n\n\n Restauration : \n Un spacieux salon des visiteurs a récemment été ajouté au profit des parents/tuteurs en visite, complétant ainsi les installations de la maison d'hôtes résidentielle disponibles. Les salles à manger végétariennes et non végétariennes impeccablement entretenues et spacieuses des auberges servent des aliments sains et nutritifs à l'aide d'une installation de cuisson à la vapeur unique. Les étudiants étrangers peuvent également choisir parmi une liste limitée de produits alimentaires spéciaux. Un mess chinois fonctionne séparément. Pour ceux qui veulent essayer différentes cuisines, une variété d'installations alimentaires hygiéniques sont disponibles sur le campus. L'aire de restauration de 600 mètres carrés est un lieu de restauration populaire, qui sert de délicieux plats non végétariens et végétariens à des prix raisonnables. Des points de restauration rapide sont également rattachés aux auberges pour hommes et femmes.\n\n Installations :\n VIT, le campus de Vellore compte 24 auberges. Dont 18 blocs sont des auberges pour garçons et le reste sont des auberges pour filles. Les blocs, au total, accueillent plus de 22 000 résidents chaque année. Les installations et équipements comprennent : \n 1. Options de lits simples et partagés avec climatisation (climatisée) et sans climatisation.\n 2. Chambres équipées de meubles de conception ergonomique comprenant un lit bébé, une chaise, une table d'étude, une lampe d'étude, une étagère et un placard.\n 3. Centre de premiers soins, pharmacie, service de photocopie, kiosques de nourriture, gymnase (AC & Non-AC), piscine, équipements sportifs, service de blanchisserie, service Wi-Fi, salon de beauté, unité de couture, conduite, cours de danse et de musique, boutique de services publics et salles d'accueil.\n 4. Conseillers résidentiels, gardiens, superviseurs, personnel d'entretien et gardes de sécurité disponibles 24h/24 et 7j/7.\n 5. Garde de sécurité pour chaperonner et assurer le transport en toute sécurité des étudiants vers et depuis le campus jusqu'au plus proche gare ferroviaire et arrêts de bus pour les nuits tardives et les premières heures de la journée.\n 6. Alimentation en eau et en électricité 24h/24 grâce à des générateurs captifs de secours.\n\n Nourriture : aliments sains et sains et une variété d'options de restauration sont à la disposition des étudiants de l'auberge. Compte tenu de la grande diversité des goûts et des cultures, les étudiants ont accès à des services de restauration multi-cuisine qui servent des plats végétariens, non végétariens, indiens et internationaux. Les étudiants peuvent également choisir et commander parmi une liste limitée de plats spéciaux disponibles sur inscription préalable au mess de style restaurant. Les salles à manger sont ouvertes dès 7h00 avec des cantines nocturnes disponibles de 22h30 à 00h30. Les cuisines sont exploitées de manière hygiénique et respectent les normes alimentaires prescrites. Un menu équilibré est préparé chaque mois par le comité étudiant du mess et des menus en consultation avec les administrateurs de l'auberge.\n\n Pour plus d'informations, veuillez visiter : (https://vit.ac.in/campuslife/hostels)"]
+   },
+
+   {
+     "tag": "infrastructure",
+     "patterns": ["infrastructure",
+      "imeuble",
+      "nombre d'étages dans le bâtiment",
+      "infrastructures collégiales",
+      "départements et laboratoires",
+      "départements",
+      "labos",
+      "cantine",
+      "infrastructure vit",
+      "Parlez-moi des infrastructures",
+      "et les infrastructures"],
+     "responses": [" Le campus du VIT s'étend sur une vaste superficie de 372 acres. L'aspect remarquable du VIT est l'infrastructure de pointe fournie aux étudiants et aux professeurs. Des laboratoires entièrement meublés et bien équipés décorent chaque bâtiment à l'université. De plus, le campus est doté de nombreuses fonctionnalités qui prennent en charge divers événements - auditoriums, espaces ouverts somptueux, scènes extérieures et bien plus encore. Pour plus de détails sur l'infrastructure, visitez https://vit.ac.in/"]
+     },
+     {
+     "tag": "événement",
+     "patterns": [
+      "événements organisés",
+      "liste des événements",
+      "liste des événements organisés au collège",
+      "liste des événements organisés au collège",
+      "Quels événements sont organisés au collège",
+      "Y a-t-il un événement organisé au collège",
+      "Événements?",
+      "les fonctions",
+      "Quels sont les événements",
+      "parle-moi des événements",
+      "et les événements"],
+     "responses": [" Notre collège organise divers événements pendant les études. De nombreux événements sont utiles pour les compétences techniques et les activités de stages. De nombreux événements sont organisés par les départements. https://vit.ac.in//university/student/ lib.aspx"]
+     },
+     {
+     "tag": "document",
+     "patterns": ["document à apporter",
+      "documents nécessaires à l'admission",
+      "documents nécessaires au moment de l'admission",
+      "documents nécessaires lors de l'admission",
+      "documents requis pour l'admission",
+      "documents requis lors de l'admission",
+      "documents requis lors de l'admission",
+      "Quel document est requis pour l'admission",
+      "Quel document apporter pour l'admission",
+      "documents",
+      "de quels documents ai-je besoin",
+      "de quels documents ai-je besoin pour l'admission",
+      "documents nécessaires"],
+     "responses": ["Les documents suivants sous leur forme originale doivent être soumis au moment du rapport à l'institut :\n Documents originaux :\n 1. Notez les relevés de toutes les tentatives d'examens de qualification.\n 2. Certificat de transfert/école Certificat de départ\n 3. Certificat de migration (si délivré par le conseil)\n 4. Profil de l'étudiant (https://vtop.vit.ac.in/studentprofile/) - (Signé par l'étudiant et le parent)\n 5.Affidavit par l'étudiant (https://vit.ac.in/files/admissions/Affidavit_Student.pdf) - (Signé et notarié)\n 6.Affidavit par le parent (https://vit.ac.in/files/admissions /Affidavit_Parent.pdf) - (Signé et notarié)\n 7.Affidavit de l'auberge (https://vit.ac.in/campuslife/hostels) - (Signé par notarié).\n 8. Certificat d'aptitude physique (https : //vit.ac.in/files/admissions/PhysicalFitness_Certificate.pdf)- (Certifié par un médecin autorisé).\n 9.Formulaire d'engagement (https://vit.ac.in/sites/default/files/Undertaking.pdf ) - (Signé par l'élève et le parent).\n 10.Photo couleur récente au format passeport os - 2 Nos.\n\n Copie des documents (1 jeu) :\n 1.Lettre d'admission provisoire (photocopie)\n 2.Rang VIT (Pour B.Tech. uniquement)\n 3.Carte Aadhar\n 4. Feuille de marquage X & XII.\n5.Certificat de transfert/certificat de fin d'études\n 6.Certificat de migration\n 7.Certificat communautaire (pour SC/ST uniquement).\n 8 .Certificat de la Nativité (pour les candidats originaires du Jammu-et-Cachemire, du Ladhak et des États du Nord-Est).\n\n Documents supplémentaires requis des étudiants NRI/étrangers : \n 1. Copie du passeport (étudiant et parent)\n 2.Certificat de l'employeur (original)\n 3.Lettre de parrainage (original). \n\n Toutes les copies des documents seront archivées et ne seront pas retournées pour quelque raison que ce soit. "]
+     },
+
+     {
+       "tag": "bibliothèque",
+       "patterns": ["y a-t-il une bibliothèque",
+        "établissement de la bibliothèque",
+        "installations de la bibliothèque",
+        "avez-vous une bibliothèque",
+        "le collège a-t-il une bibliothèque ?",
+        "bibliothèque du collège",
+        "Où puis-je obtenir des livres",
+        "facilité de réservation",
+        "Où est la bibliothèque",
+        "Une bibliothèque",
+        "Parlez-moi de la bibliothèque",
+        "combien de bibliothèques"],
+       "responses": ["La bibliothèque centrale s'étend sur une superficie de 7770 m² avec six étages (hors rez-de-chaussée). Elle possède des collections spécialisées de livres, de revues et d'autres ressources en mathématiques et sciences, ingénierie et technologie, biotechnologie, sciences humaines, Sciences sociales et gestion allant de livres imprimés, livres électroniques, volumes antérieurs et CD/DVD. La bibliothèque centrale est abonnée à des revues nationales et internationales sous forme imprimée et électronique. La bibliothèque dispose d'une installation de vidéoconférence et de cours vidéo NPTEL, ePGpathashala, Programme Swayam et autres ressources d'apprentissage en ligne lancés par le gouvernement de l'Inde. La bibliothèque centrale utilise le logiciel Koha pour l'automatisation de la bibliothèque et a mis en œuvre la technologie RFID avec kiosque d'auto-émission et de retour, WEB-OPAC (catalogue d'accès public en ligne) et renouvellement en ligne service.\n\n Services :\n 1.Service de diffusion \n2.Service de référence \n3.Web OPAC (catalogue d'accès public en ligne) \n4.Service de livres d'études \n5.Banque de livres STARS \n6.Partage de ressources ( je nter Library Loan) \n7.Multimedia Resource Service \n8.On-line Databases\n9.NPTEL e-Learning Facility.\n10.User Education Program \n11.Tele / Video Conferencing\n\n Adhésion :\n Tous les étudiants, les membres du corps professoral et le personnel de l'institut sont membres de la bibliothèque.\n\n Pour plus d'informations, veuillez visiter : https://vit.ac.in/academics/library "]
+       },
+       {
+       "tag": "syllabus",
+       "patterns": ["Syllabus pour l'informatique",
+        "Qu'est-ce que le programme de technologie de l'information ?",
+        "programme",
+        "calendrier",
+        "quel est le programme informatique",
+        "programme",
+        "Quelle est la prochaine conférence"],
+       "responses": ["Syllabus de toutes les années et départements est disponible dans le lien ci-dessous.https://vit.ac.in//faculty/2/computing#lap251 "]
+       },
+       {
+       "tag": "cantine",
+       "patterns": ["installations alimentaires",
+        "installations de cantine",
+        "établissement de cantine",
+        "y a-t-il une cantine",
+        "Y a-t-il une cafétéria au collège",
+        "Est-ce que le collège a une cantine",
+        "Où est la cantine",
+        "où est la cafétéria",
+        "cantine",
+        "Cafétéria"],
+       "responses": ["vit a une cantine avec une variété de plats disponibles."]
+       },  
+
+   
+       {
+         "tag": "menu",
+         "patterns": ["menu alimentaire",
+          "nourriture à la cantine",
+          "Qu'est-ce qu'il y a au menu",
+          "ce qui est disponible à la cantine du collège",
+          "quels aliments pouvons-nous obtenir à la cantine du collège"],
+         "responses": ["La cantine du collège sert du thé, du café, du Vada Pav, du Misal Pav, du pain Pakoda, du Thaali, du Samosa, du Dal Rice, du Biryani et bien d'autres plats."]
+         },
+         {
+         "tag": "emplacement",
+         "patterns": ["Qu'est-ce que le placement universitaire",
+          "Quelles entreprises visitent au collège",
+          "Qu'est-ce qu'un forfait moyen ?",
+          "visite d'entreprises",
+          "emballer",
+          "placement",
+          "recrutement",
+          "entreprises"],
+         "responses": ["Diverses entreprises viennent recruter nos étudiants et proposer un maximum de packages. Pour plus d'informations visitez https://vit.ac.in/ ",
+          "Notre collège organise diverses activités liées aux stages. Pour la dernière mise à jour, visitez https://vit.ac.in/ "]
+         },
+         
+         {
+         "tag": "salutation",
+         "patterns": ["okk",
+          "d'accord",
+          "bon travail",
+          "bien fait",
+          "bon travail",
+          "Merci pour l'aide",
+          "Merci",
+          "c'est bon",
+          "Merci",
+          "k",
+          "d'accord",
+          "d'accord"],
+         "responses": ["Je suis content de vous avoir aidé",
+           "Je suis très heureux de vous aider",
+           "bienvenue, je peux vous aider ?"]
+         },
+            
+         {
+         "tag":"ragging",
+         "patterns":["ragging",
+         "Est-ce que la pratique du ragging est active au collège",
+         "Est-ce que le collège a une installation antiragging",
+         "Y a-t-il des cas de guenilles",
+         "est-ce que c'est fait ici",
+         "juniors déchaînés",
+         "histoire déchaînée",
+         "incidents déchaînés"],
+         "responses": ["Nous sommes fiers de vous dire que notre université offre un environnement sans ragging, et nous avons des règles strictes contre ragging"]
+         },
+
+
+         {
+"tag":"bourse",
+"patterns":["bourse d'études",
+           "Une bourse est-elle disponible ?",
+           "bourse d'ingénierie",
+           "bourse d'études",
+           "bourse d'études",
+           "bourse te",
+           "bourse être",
+           "bourses disponibles",
+           "bourse d'études en génie informatique",
+           "bourse d'études pour l'ingénierie automobile",
+           "bourse d'ingénierie informatique",
+           "bourse d'études en génie mécanique",
+           "bourse de génie civil",
+           "bourse d'ingénierie extc",
+           "bourse d'études en génie électrique",
+           "liste des bourses",
+           "bourse d'études",
+           "bourse informatique",
+           "bourse en mécanique",
+           "bourse civile",
+           "bourse électrique",
+           "bourse extc",
+           "bourse automobile",
+           "bourse de première année",
+           "bourse de deuxième année",
+           "bourse de troisième année",
+           "bourse de quatrième année"],
+"responses":["De nombreuses bourses gouvernementales sont soutenues par vit. Pour plus de détails et des mises à jour, visitez https://vit.ac.in/"]
+},
+                        
+{
+"tag":"faculté",
+"patterns":["faculté",
+           "détails de la faculté",
+           "faculté d'informatique",
+           "Faculté informatique",
+           "faculté de mécanique",
+           "faculté automobile",
+           "faculté extc",
+           "faculté d'électricité",
+           "faculté civile",
+           "Faculté d'ingénierie",
+           "liste des professeurs",
+           "faculté de première année",
+           "faculté de deuxième année",
+           "faculté de troisième année",
+           "faculté de quatrième année",
+           "donner les détails de la faculté",
+           "Parlez-moi de la faculté",
+           "comment est la faculté",
+           "Personnel",
+           "veuillez donner des informations sur le corps professoral",
+           "informations sur la faculté",
+           "la faculté?"],
+"responses":["vit a un corps professoral hautement qualifié et expérimenté. Pour plus de détails, visitez https://vit.ac.in/ "]
+},   
+
+
+
+{
+  "tag":"portail étudiant",
+  "patterns":["portail étudiant",
+             "donner le lien vers le portail étudiant",
+             "portail étudiant ?",
+             "où est le portail étudiant",
+             "vit portail étudiant",
+             "comment obtenir le portail étudiant",
+             "où obtenir le reçu des frais",
+             "veuillez fournir un lien vers le portail étudiant",
+             "où se connecter"],
+  "responses":["Après l'inscription, les étudiants recevront leur mot de passe pour le site Web des étudiants via leur courrier VIT"]
+                          
+  },
+                          
+  
+                          
+  {
+  "tag":"sport",
+  "patterns":["sports et jeux",
+             "donner des détails sportifs",
+             "infrastructures sportives",
+             "installations sportives",
+             "vit installations sportives",
+             "informations sur le sport",
+             "veuillez fournir des informations sur les sports et les jeux" ],
+  "responses":["vit encourage le développement global des étudiants et fournit ainsi des installations sportives "]
+  },
+                          
+  {
+  "tag":"fest",
+  "patterns":["fêtes",
+             "fête du collège",
+             "euforie",
+             "tech euforia",
+             "vit fests",
+             "fête de l'information",
+             "veuillez fournir des informations sur les festivals",
+             "informations euforie",
+             "informations techniques euforia",
+             "parle-moi des fêtes du collège",
+             "parle-moi de la technologie euforia",
+             "parle-moi d'euforia",
+             "information euforie",
+             "veuillez fournir des informations sur euforia",
+             "veuillez fournir des informations techniques euforia",
+             "détails tech euforia",
+             "détails euforia",
+             "donnez-moi les détails d'euforia",
+             "donnez-moi les détails techniques d'euforia",
+             "donnez-moi des détails sur les fêtes",
+             "fêtes ?"],
+  "responses":["vit encourage le développement global des étudiants et organise donc des festivals dynamiques. Pour plus de détails, visitez https://vit.ac.in//list/9/events" ]
+  }
+
+]}

@@ -1,0 +1,567 @@
+About:
+Vision and Misson 
+Milestones
+Leadership 
+Governence
+Administrative Offices
+Infrastructure
+Rankings and Accredations
+Sustainability
+Community Outreach
+Events
+
+
+Academics:
+Overview
+Regulations
+Programms offered
+Cirriculum
+FFCS
+Library
+Schools
+
+Admissions:
+Overview
+Undergraduate
+Postgraduate
+Research
+International Admissions
+
+
+Career development center (CDC):
+Super Dream Offer
+Dream Offers
+Internships
+Statistics
+CDC Office
+Conctact
+
+
+International Relations:
+Intranational Transfer Programme
+Partner Universities
+Semester Abroad Programms (SAP)
+Contact
+
+
+Research:
+Academic Research
+Sponsored Research
+IPR Cell
+Research Centers
+
+Campus life:
+Fests
+Student Welfare 
+Library
+Sports 
+Hostels 
+Hostel Services
+Other Amenities 
+
+Examinations:
+Controller Of Exams (COE)
+Transcripts for Alumini
+WES Accredation
+WES Application Process
+WES Advisory Board
+Certificate Verification for Registerd agencies
+
+Parents:
+Parents Login
+Counselling Division
+Guest House
+Grievance Redressal
+Hotels in Vellore (Parents accomodation)
+
+Student Facilities:
+Vit Gmail
+Student Login
+VIT Intranet
+SBST Freshers App
+Anti Ragging committee
+Industrial Visit 
+ICC
+
+Alumni:
+Alumni Progression
+Transcripts
+Medium of Instruction/ Migration Certificate
+Other Services to Alumini
+Alumni-Events
+Distinguised Alumni awards
+
+Maps/Directions to different buildings:
+Show a map connecting different locations
+
+Online Vit University:
+VITOL
+
+
+
+
+
+{"intents": [
+  {"tag": "greeting",
+  "patterns": ["Hi",
+              "How are you",
+              "Is anyone there?",
+              "Hello",
+              "Good day","Hi there", "Hi you",
+              "Hola","Hey","Good morning",
+              "Good Evening","hey","how are","How are you doing","Good afternoon","Good day","how are ya",                    
+              "heyy",
+              "whatsup"],
+  "responses": ["Welcome to Our Chatbot","Hello", "thanks for visiting",
+              "Good to see you again",
+              "Hi there, how can I help?",
+              "Hey, I’m so happy to see you again.",
+              "What have you been up to?"],
+  "context": ""
+  },
+  {"tag": "goodbye",
+  "patterns": ["Bye", 
+              "See you later", 
+              "Goodbye",
+              "Nice chatting to you", 
+              "Till next time",
+              "Bye bot",
+              "Have a good day",
+              "farewell",
+              "Take Care","Bye bot",
+              "Be Seeing You",
+              "See You Soon","I See you next term",
+              "I see you next semester",
+              "I see you next year"],
+  "responses": ["See you later, thanks for visiting",
+               "Have a nice day",
+                "Bye! Come back again soon.",
+                "Peace",
+                "Peace Out",
+                "Catch you later"],
+  "context": ""
+  },
+  {"tag": "thanks",
+  "patterns": ["Thanks",
+              "Thank you", 
+              "That's helpful",
+              "Thanks for helping me",
+              "Much Obliged",
+              "alot of thanks",
+              "many thanks",
+              "I want to thank you",
+              "I couldn’t have done it without you",
+              "Thanks for having my back",
+              "I owe a thank you",
+              "Thanks for being such a star",
+              "This means a lot to me",
+              "Thanks for following",
+              "your help made me happy",
+              "following you made me happy",
+              " I really appreciate it"],
+  "responses": ["Happy to help!",
+              "Any time!",
+              "My pleasure",
+              " Glad to help",
+              "Don’t mention it",
+              "it’s no bother at all",
+              "I am glad to help you",
+              "It was the least I could do"],
+  "context": ""
+  },
+  {"tag": "name",
+  "patterns": ["what is your name?", 
+              "what should I call you?",
+              "whats your name?",
+              "Hey, what's your name?",
+              "what is your surname?",
+              "Your Name",
+              "Your name is ?",
+              "I ask your name?",
+              "name",
+              "your name",
+              "do you have a name",
+              "what are you called",
+              "what is your name",
+              "what should I call you",
+              "whats your name?",
+              "what are you",
+              "who are you",
+              "who is this",
+              "what am i chatting to",
+              "who am i taking to",
+              "what are you"],
+  "responses": ["You can call me mti bot.",
+               "I'm mti bot!", 
+               "I'm mti bot.",
+               "mti bot",
+               "Hey,my name is mti bot",
+               "Hello, my name is mti bot",
+               "You can call me MTI Chatbot.",
+               "I'm College Enquiry Chatbot",
+               "I'm MTI Chatbot aka College Enquiry Chatbot"],
+  "context": ""
+      
+  },
+  {"tag": "hours_bot",
+  "patterns": ["What hours are you open?",
+              "What are your hours?", 
+              "When are you open?",
+              "Exist for how long?",
+              "Are you open now?",
+              "When do you open?",
+              "how much do you work",
+              "work hours?",
+              "When will your work start?",
+              "Are you working this week?",
+              "Per day how many hours you are working" ,
+              "Are you work all-day",
+              "Are you online now?",
+              "Are you available?","Available?",
+              "Available now?" ],
+  "responses": ["We're open every day 24/7",
+              "We're always open ",
+              "Happy to help! Any other issues?",
+              "I am open all days of the week",
+              "Always exists",
+              "Always present"],
+  "context": ""
+  },
+  {"tag": "opentoday",
+  "patterns": ["Are you open today?", 
+              "When do you open today?", 
+              "What are your hours today?",
+              "Does it exist today?",
+              "Is it available today to come?",
+              "From when to when the university opens?"],
+
+  "responses": ["We're open every day for 24 hours available",
+               " 24 hours  every day",
+               "We are open 24 hours"],
+  "context": ""
+  },
+  {"tag": "noanswer",
+  "patterns": ["a","b","c","d","e","f","j","h","i","g","k","l","m","n","o",
+               "p","q","r","s","t","u","v","w","x","y","z", "random"],
+  "responses": ["Sorry, can't understand you",
+              "What does that mean?",
+              "explain please!",
+              "more clarification..!",
+              "what do you mean by that?",
+              "I do not understand what you say..!"],
+  "context": ""
+  
+  },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "University Website",
+      "patterns": ["Where is the link for the university site?",
+        "The link for the university site?",
+        "Can you give me the university site?",
+        "Give me the university site?",
+        "The university site?","university site is?",
+        "The university link site please",
+        "What is the website of the university?"],
+      "responses": ["https://vit.ac.in/",
+        "Our university site is https://vit.ac.in/ ",
+        "The university site is https://vit.ac.in/ ",
+        "The site of the university is https://vit.ac.in/  ",
+        "The site of our university is  https://vit.ac.in/ ",
+        "You can follow this link https://vit.ac.in/  to enter the university website",
+        "You can follow this link https://vit.ac.in/  to enter to our university website",
+        "That's our site https://vit.ac.in/",
+        "You could follow this link https://vit.ac.in/",
+        "The site of our university https://vit.ac.in/",
+        "That's our site https://vit.ac.in/"]
+    },
+    {"tag": "address",
+      "patterns": ["Where is the university address?",
+                  "Give me the address, please? ",
+                  "Give me the university address, please? ",
+                  "Send me the university address, please? ",
+                  "Send me the address of the university, please ?",
+                  "What's the address?",
+                  "What's the university address?",
+                  "The address, please",
+                  "The university address, please",
+                  "University address is?",
+                  "Where is the university location?",
+                  "Where is your location?",
+                  "Where is the location of your university?",
+                  "What's the university address?",
+                  "where is the college located",
+                  "college is located at",
+                  "where is college",
+                  "where is college located",
+                  "address of college",
+                  "how to reach college",
+                  "college location",
+                  "college address",
+                  "wheres the college",
+                  "how can I reach college",
+                  "whats is the college address",
+                  "what is the address of college",
+                  "address",
+                  "location"],
+      "responses": ["VIT, Vellore Campus, Tiruvalam Rd, Katpadi, Vellore, Tamil Nadu 632014, India",
+                  "Our address is VIT, Vellore Campus, Tiruvalam Rd, Katpadi, Vellore, Tamil Nadu 632014, India",
+                  "Our university address is VIT, Vellore Campus, Tiruvalam Rd, Katpadi, Vellore, Tamil Nadu 632014, India",
+                  "That's our address VIT, Vellore Campus, Tiruvalam Rd, Katpadi, Vellore, Tamil Nadu 632014, India",
+                  "That's our university address VIT, Vellore Campus, Tiruvalam Rd, Katpadi, Vellore, Tamil Nadu 632014, India",
+                  "You Could visit us at this address VIT, Vellore Campus, Tiruvalam Rd, Katpadi, Vellore, Tamil Nadu 632014, India"
+                ]  
+    },
+    {
+      "tag": "Vision and Mission",
+      "patterns": ["Vision and Mission","What is the vision for V.I.T"," Vision of V.I.T"],
+      "responses": ["Transforming life through excellence in education and research","World class Education, Cutting edge Research,Impactful People,Rewarding Co-creations and  Service to Society"]
+    },
+    {"tag": "info_Registration",
+      "patterns": ["Are you advancing throughout the year? ",
+                  "Do you improve throughout the year?",
+                  "When is the time to apply for the application?",
+                  "What is the date to join the university?",
+                  "Are you distinguished annually?"],
+      "responses": [" No, Each semester.",
+                  "we get advance each semester","Each semester",
+                  "After high school results",
+                  "We do that each semester"]
+      
+      },
+      {"tag": "info_acceptance",
+      "patterns": ["How long is the period between application and acceptance? ",
+                  "What is the duration of admission?",
+                  "What is the duration for acceptance?","What is the period between application and registration at the university?",
+                  "Registration a month after submitting the application?",
+                  "Registration a week after submitting the application",
+                  "What is the duration of admission after registering at the university and withdrawing the application?",
+                  "How long is the period for admission ?",
+                  "what is the process of admission",
+                  "what is the admission process",
+                  "How to take admission in your college",
+                  "What is the process for admission",
+                  "admission",
+                  "admission process"],
+      "responses": ["There is no specific period, but it will not be less than the passage of a full year ... The more the application is complete and the conditions are available, the greater the chance of acceptance."]      
+      },
+      {"tag": "info_Duration",
+      "patterns": ["Why are the admission procedures delayed and take so long? ",
+                  "What is the reason for admission delay?",
+                  "There is a delaying to be accepted?",
+                  "There is a delaying to be accepted why?",
+                  "What caused the delay? ",
+                  "What is the reason for the delay in admission at the university?" ,
+                  "Why the delay in admission?",
+                  "Why is the delay in admission at the university? ",
+                  "Why is the admission procedures delayed?",
+                  "Why is the admission procedures delayed at the university ?",
+                  "What is the reason for the delay in the admission procedures?",
+                  "What is the reason for the delay in the admission procedures at your university?",
+                  "Why is the acceptance process taking so long",
+                  "Give me a reason for the delay at the time of admission?",
+                  "Give me a reason for the delay at the time of admission at the university?",
+                  "Give me a reason for the delay?"],
+      "responses": [" For a delay that comes from the ministry and not from the university .. And because the ministry is keen to bring outstanding students to study in the city, procedures take a long time until the best are accepted."]
+      
+      },
+    {
+      "tag": "Milestones",
+      "patterns": ["Milestone", "What are some of the milestones of the University", "Acheivements"],
+      "responses": ["\n VIT has been ranked 28th in Overall Category, 15th in Engineering Category, 16th in University and 55th in Management by the MHRD-NIRF Ranking 2020.\n QS World Ranking – Top 801-1000\nQS Asia Ranking – Top 228\nQS World Rankings by Subject - EEE & Chemical – Top 301-350, CSE & Mechanical – Top 401-450 and Chemistry – Top 451 – 500.\nTHE World Ranking – Top 801-1000\nTHE World Rankings by Subject - CSE – Top 301-400, Civil, Mech., EEE and Chemical – Top 501-600, Physical Sciences – Top 601-800\nTHE Asia Ranking – Top 201-250\nShanghai World University Ranking – Top 901-1000\nNew Undergraduate Programmes – B.Tech. CSE with Specialization in Block Chain Technology and B.Sc. Visual Communication started." ]
+    },
+    {
+      "tag": "Leadership",
+      "patterns": [],
+      "responses": []
+    },
+    {
+      "tag": "Governance",
+      "patterns": [],
+      "responses": []
+    },
+    {
+      "tag": "Administrative Offices",
+      "patterns": [],
+      "responses": []
+    },
+    {
+      "tag": "Infrastructure",
+      "patterns": [],
+      "responses": []
+    },
+    {
+      "tag": "Rankings and Accredations",
+      "patterns": [],
+      "responses": []
+    },
+    {
+      "tag": "Sustainability",
+      "patterns": [],
+      "responses": []
+    },
+    {
+      "tag": "Community Outreach",
+      "patterns": [],
+      "responses": []
+    },
+    {
+      "tag": "Events",
+      "patterns": [],
+      "responses": []
+    },
+    {
+      "tag": "Academics",
+      "patterns": [],
+      "responses": []
+    },
+    {
+      "tag": "Regulations",
+      "patterns": [],
+      "responses": []
+    },
+    {
+      "tag": "Programms offered",
+      "patterns": [],
+      "responses": []
+    },
+    {
+      "tag": "Cirriculum",
+      "patterns": [],
+      "responses": []
+    },
+    {
+      "tag": "FFCS",
+      "patterns": [],
+      "responses": []
+    },
+    {
+      "tag": "Library",
+      "patterns": [],
+      "responses": []
+    },
+    {
+      "tag": "Schools",
+      "patterns": [],
+      "responses": []
+    },
+    {
+      "tag": "Admissions",
+      "patterns": [],
+      "responses": []
+    },
+    {
+      "tag": "Undergraduate Admissions",
+      "patterns": [],
+      "responses": []
+    },
+    {
+      "tag": "Postgraduate Admissins",
+      "patterns": [],
+      "responses": []
+    },
+    {
+      "tag": "Research Admissions",
+      "patterns": [],
+      "responses": []
+    },
+    {
+      "tag": "International Admissions",
+      "patterns": [],
+      "responses": []
+    },
+    {
+      "tag": "Career development center",
+      "patterns": ["CDC","CDC Statistics"],
+      "responses": []
+    },
+    {
+      "tag": "Placement Offers",
+      "patterns": ["Super Dream Offers","Dream Offers"],
+      "responses": []
+    },
+    {
+      "tag": "Industrial Help",
+      "patterns": ["Internship"],
+      "responses": []
+    },
+    {
+      "tag": "CDC Contact",
+      "patterns": [],
+      "responses": []
+    },
+    {
+      "tag": "International Relations",
+      "patterns": [],
+      "responses": []
+    },
+    {
+      "tag": "International Partner Programme",
+      "patterns": [],
+      "responses": []
+    },
+    {
+      "tag": "Partner Universities",
+      "patterns": [],
+      "responses": []
+    },
+    {
+      "tag": "Semester Abroad Programme",
+      "patterns": ["SAP"],
+      "responses": []
+    },
+    {
+      "tag": "International Office Contact",
+      "patterns": [],
+      "responses": []
+    },
+    {
+      "tag": "Research",
+      "patterns": ["Academic Research","Sponsered Research","IPR Cell", "research Centers"],
+      "responses": []
+    },
+    {
+      "tag": "Examinations",
+      "patterns": ["COE"],
+      "responses": []
+    },
+    {
+      "tag": "Transcripts",
+      "patterns": ["WES","WES Accredation"],
+      "responses": []
+    },
+    {
+      "tag": "Parents Login",
+      "patterns": [],
+      "responses": []
+    },
+    {
+      "tag": "Parents Councelling Division",
+      "patterns": [],
+      "responses": []
+    },
+    {
+      "tag": "Student Facilities",
+      "patterns": [""],
+      "responses": []
+    },
+    {
+      "tag": "Ragging",
+      "patterns": [],
+      "responses": []
+    },
+    {
+      "tag": "Alumni",
+      "patterns": [],
+      "responses": []
+    },
+    {
+      "tag": "Online VIT university",
+      "patterns": ["Vitol"],
+      "responses": []
+    }
+  ]
+}
